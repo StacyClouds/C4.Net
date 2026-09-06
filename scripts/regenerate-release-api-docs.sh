@@ -17,7 +17,7 @@ DOCUMENTED_PROJECTS=(
 validate_package_version() {
 	local package_version="$1"
 
-	if [[ ! "${package_version}" =~ ^[0-9]+\.[0-9]+\.[0-9]+([-.][0-9A-Za-z.-]+)?(\+[0-9A-Za-z.-]+)?$ ]]; then
+	if [[ ! "${package_version}" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?(\+[0-9A-Za-z.-]+)?$ ]]; then
 		echo "Invalid package version: ${package_version}" >&2
 		return 1
 	fi
@@ -53,7 +53,12 @@ EOF
 }
 
 ensure_docfx_target_framework_supported() {
-python - "${DOCFX_TARGET_FRAMEWORK}" "${DOCUMENTED_PROJECTS[@]}" <<'PY'
+	local python_bin="python3"
+	if ! command -v "${python_bin}" >/dev/null 2>&1; then
+		python_bin="python"
+	fi
+
+	"${python_bin}" - "${DOCFX_TARGET_FRAMEWORK}" "${DOCUMENTED_PROJECTS[@]}" <<'PY'
 import sys
 import xml.etree.ElementTree as ET
 
