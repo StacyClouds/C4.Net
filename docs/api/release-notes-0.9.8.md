@@ -17,4 +17,4 @@ All packages in this release are published at version `0.9.8`:
 
 ## API reference
 
-Browse the [API reference](index.html) for the full public API at this version.
+Browse the [API reference](index.md) for the full public API at this version.
