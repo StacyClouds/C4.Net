@@ -201,7 +201,7 @@ dotnet tool restore
 dotnet build StacyClouds.C4Sharp.slnx -c Release -p:TargetFramework=net10.0
 
 # Generate metadata YAML from the project sources (output goes to api/)
-dotnet docfx metadata docfx.json
+dotnet docfx metadata docfx.json --property TargetFramework=net10.0
 
 # Build the HTML site (output goes to docs/api/)
 dotnet docfx build docfx.json
