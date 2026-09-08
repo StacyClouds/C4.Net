@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\C4.Net.Examples\C4.Net.Examples.csproj" />
+    <ProjectReference Include="..\C4.Net.Renderer\C4.Net.Renderer.csproj" />
+    <ProjectReference Include="..\C4.Net.Editor\C4.Net.Editor.csproj" />
+  </ItemGroup>
+
+</Project>

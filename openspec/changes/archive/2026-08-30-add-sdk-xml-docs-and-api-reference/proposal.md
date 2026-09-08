@@ -6,7 +6,7 @@ A second gap exists in the `docs/` GitHub Pages site: it covers high-level guide
 
 ## What Changes
 
-- Add or complete `<summary>`, `<param>`, `<returns>`, `<exception>`, `<remarks>`, and `<example>` XML doc comments on all public and meaningful internal members across `StacyClouds.C4Sharp.Core`, `StacyClouds.C4Sharp.Client`, `StacyClouds.C4Sharp.Renderer`, and `StacyClouds.C4Sharp.Editor`.
+- Add or complete `<summary>`, `<param>`, `<returns>`, `<exception>`, `<remarks>`, and `<example>` XML doc comments on all public and meaningful internal members across `C4.Net.Core`, `C4.Net.Client`, `C4.Net.Renderer`, and `C4.Net.Editor`.
 - Enable XML doc file generation in all library `.csproj` files so the compiler emits `.xml` artefacts.
 - Generate a static API reference from those XML files and add it to the `docs/` folder for publication via GitHub Pages.
 - Add a navigation entry in `docs/index.md` (and `_config.yml` if needed) pointing to the new API reference section.
@@ -24,7 +24,7 @@ A second gap exists in the `docs/` GitHub Pages site: it covers high-level guide
 ## Impact
 
 Affected areas:
-- All `.cs` source files in `StacyClouds.C4Sharp.Core`, `StacyClouds.C4Sharp.Client`, `StacyClouds.C4Sharp.Renderer`, and `StacyClouds.C4Sharp.Editor`.
+- All `.cs` source files in `C4.Net.Core`, `C4.Net.Client`, `C4.Net.Renderer`, and `C4.Net.Editor`.
 - The four library `.csproj` files (XML doc generation property).
 - The `docs/` folder (new `api/` subdirectory and updated navigation).
 - The CI/build pipeline if doc generation is wired into it.

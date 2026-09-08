@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0;net11.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.1.1</Version>
+    <PackageId>C4.Net.Editor</PackageId>
+    <Description>Interactive Razor components for organising C4.Net workspace SVG diagrams.</Description>
+    <Authors>Stacy Cashmore</Authors>
+    <Copyright>Copyright 2026</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://c4sharp.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StacyClouds/C4.Net</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AddRazorSupportForMvc>false</AddRazorSupportForMvc>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C4.Net.Renderer\C4.Net.Renderer.csproj" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

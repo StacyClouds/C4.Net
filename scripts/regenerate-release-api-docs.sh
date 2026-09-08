@@ -8,10 +8,10 @@ REPO_ROOT=$(cd "${SCRIPT_DIR}/.." && pwd)
 PACKAGE_VERSION="${1:-${PACKAGE_VERSION:-}}"
 DOCFX_TARGET_FRAMEWORK="${DOCFX_TARGET_FRAMEWORK:-net10.0}"
 DOCUMENTED_PROJECTS=(
-	"StacyClouds.C4Sharp.Core/StacyClouds.C4Sharp.Core.csproj"
-	"StacyClouds.C4Sharp.Client/StacyClouds.C4Sharp.Client.csproj"
-	"StacyClouds.C4Sharp.Renderer/StacyClouds.C4Sharp.Renderer.csproj"
-	"StacyClouds.C4Sharp.Editor/StacyClouds.C4Sharp.Editor.csproj"
+	"C4.Net.Core/C4.Net.Core.csproj"
+	"C4.Net.Client/C4.Net.Client.csproj"
+	"C4.Net.Renderer/C4.Net.Renderer.csproj"
+	"C4.Net.Editor/C4.Net.Editor.csproj"
 )
 
 validate_package_version() {
@@ -41,10 +41,10 @@ Released: ${release_date}
 
 All packages in this release are published at version \`${package_version}\`:
 
-- [StacyClouds.C4Sharp.Core ${package_version}](https://www.nuget.org/packages/StacyClouds.C4Sharp.Core/${package_version})
-- [StacyClouds.C4Sharp.Client ${package_version}](https://www.nuget.org/packages/StacyClouds.C4Sharp.Client/${package_version})
-- [StacyClouds.C4Sharp.Renderer ${package_version}](https://www.nuget.org/packages/StacyClouds.C4Sharp.Renderer/${package_version})
-- [StacyClouds.C4Sharp.Editor ${package_version}](https://www.nuget.org/packages/StacyClouds.C4Sharp.Editor/${package_version})
+- [C4.Net.Core ${package_version}](https://www.nuget.org/packages/C4.Net.Core/${package_version})
+- [C4.Net.Client ${package_version}](https://www.nuget.org/packages/C4.Net.Client/${package_version})
+- [C4.Net.Renderer ${package_version}](https://www.nuget.org/packages/C4.Net.Renderer/${package_version})
+- [C4.Net.Editor ${package_version}](https://www.nuget.org/packages/C4.Net.Editor/${package_version})
 
 ## API reference
 
@@ -101,8 +101,8 @@ main() {
 	ensure_docfx_target_framework_supported
 
 	dotnet tool restore
-	dotnet restore StacyClouds.C4Sharp.slnx -p:TargetFramework="${DOCFX_TARGET_FRAMEWORK}"
-	dotnet build StacyClouds.C4Sharp.slnx --no-restore -c Release -p:TargetFramework="${DOCFX_TARGET_FRAMEWORK}"
+	dotnet restore C4.Net.slnx -p:TargetFramework="${DOCFX_TARGET_FRAMEWORK}"
+	dotnet build C4.Net.slnx --no-restore -c Release -p:TargetFramework="${DOCFX_TARGET_FRAMEWORK}"
 	dotnet docfx metadata docfx.json --property "TargetFramework=${DOCFX_TARGET_FRAMEWORK}" --noRestore
 	dotnet docfx build docfx.json
 

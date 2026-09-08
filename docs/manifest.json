@@ -12,1794 +12,1794 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.AbstractImpliedRelationshipsStrategy.yml",
+      "source_relative_path": "api/C4.Net.AbstractImpliedRelationshipsStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.AbstractImpliedRelationshipsStrategy.html"
+          "relative_path": "api/C4.Net.AbstractImpliedRelationshipsStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.AbstractImpliedRelationshipsStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.AbstractImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">Provides shared guard logic for implied-relationship strategies.</p>\n"
+      "Title": "C4.Net.AbstractImpliedRelationshipsStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.AbstractImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">Provides shared guard logic for implied-relationship strategies.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.AbstractWorkspace.yml",
+      "source_relative_path": "api/C4.Net.AbstractWorkspace.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.AbstractWorkspace.html"
+          "relative_path": "api/C4.Net.AbstractWorkspace.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.AbstractWorkspace",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.AbstractWorkspace.yml\" sourcestartlinenumber=\"1\">Provides the shared metadata and configuration carried by all workspace representations.</p>\n"
+      "Title": "C4.Net.AbstractWorkspace",
+      "Summary": "<p sourcefile=\"api/C4.Net.AbstractWorkspace.yml\" sourcestartlinenumber=\"1\">Provides the shared metadata and configuration carried by all workspace representations.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Animation.yml",
+      "source_relative_path": "api/C4.Net.Animation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Animation.html"
+          "relative_path": "api/C4.Net.Animation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Animation",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Animation.yml\" sourcestartlinenumber=\"1\">Describes a single animation step for a static or deployment view.</p>\n"
+      "Title": "C4.Net.Animation",
+      "Summary": "<p sourcefile=\"api/C4.Net.Animation.yml\" sourcestartlinenumber=\"1\">Describes a single animation step for a static or deployment view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Api.AssemblyInfo.yml",
+      "source_relative_path": "api/C4.Net.Api.AssemblyInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Api.AssemblyInfo.html"
+          "relative_path": "api/C4.Net.Api.AssemblyInfo.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Api.AssemblyInfo",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Api.AssemblyInfo.yml\" sourcestartlinenumber=\"1\">Placeholder type that anchors the assembly namespace for assembly-level attributes.</p>\n"
+      "Title": "C4.Net.Api.AssemblyInfo",
+      "Summary": "<p sourcefile=\"api/C4.Net.Api.AssemblyInfo.yml\" sourcestartlinenumber=\"1\">Placeholder type that anchors the assembly namespace for assembly-level attributes.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Api.StructurizrClient.yml",
+      "source_relative_path": "api/C4.Net.Api.StructurizrClient.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Api.StructurizrClient.html"
+          "relative_path": "api/C4.Net.Api.StructurizrClient.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Api.StructurizrClient",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Api.StructurizrClient.yml\" sourcestartlinenumber=\"1\">A client for the Structurizr API (<a href=\"https://api.structurizr.com\" sourcefile=\"api/StacyClouds.C4Sharp.Api.StructurizrClient.yml\" sourcestartlinenumber=\"1\">https://api.structurizr.com</a>)\nthat allows you to get and put Structurizr workspaces in a JSON format.</p>\n"
+      "Title": "C4.Net.Api.StructurizrClient",
+      "Summary": "<p sourcefile=\"api/C4.Net.Api.StructurizrClient.yml\" sourcestartlinenumber=\"1\">A client for the Structurizr API (<a href=\"https://api.structurizr.com\" sourcefile=\"api/C4.Net.Api.StructurizrClient.yml\" sourcestartlinenumber=\"1\">https://api.structurizr.com</a>)\nthat allows you to get and put Structurizr workspaces in a JSON format.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Api.StructurizrClientException.yml",
+      "source_relative_path": "api/C4.Net.Api.StructurizrClientException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Api.StructurizrClientException.html"
+          "relative_path": "api/C4.Net.Api.StructurizrClientException.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Api.StructurizrClientException",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Api.StructurizrClientException.yml\" sourcestartlinenumber=\"1\">Represents failures that occur while calling the Structurizr API.</p>\n"
+      "Title": "C4.Net.Api.StructurizrClientException",
+      "Summary": "<p sourcefile=\"api/C4.Net.Api.StructurizrClientException.yml\" sourcestartlinenumber=\"1\">Represents failures that occur while calling the Structurizr API.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Api.yml",
+      "source_relative_path": "api/C4.Net.Api.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Api.html"
+          "relative_path": "api/C4.Net.Api.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Api",
+      "Title": "C4.Net.Api",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.AssemblyInfo.yml",
+      "source_relative_path": "api/C4.Net.AssemblyInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.AssemblyInfo.html"
+          "relative_path": "api/C4.Net.AssemblyInfo.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.AssemblyInfo",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.AssemblyInfo.yml\" sourcestartlinenumber=\"1\">Placeholder type that anchors the assembly namespace for assembly-level attributes.</p>\n"
+      "Title": "C4.Net.AssemblyInfo",
+      "Summary": "<p sourcefile=\"api/C4.Net.AssemblyInfo.yml\" sourcestartlinenumber=\"1\">Placeholder type that anchors the assembly namespace for assembly-level attributes.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.AutomaticLayout.yml",
+      "source_relative_path": "api/C4.Net.AutomaticLayout.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.AutomaticLayout.html"
+          "relative_path": "api/C4.Net.AutomaticLayout.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.AutomaticLayout",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.AutomaticLayout.yml\" sourcestartlinenumber=\"1\">Captures the automatic layout settings applied to a view.</p>\n"
+      "Title": "C4.Net.AutomaticLayout",
+      "Summary": "<p sourcefile=\"api/C4.Net.AutomaticLayout.yml\" sourcestartlinenumber=\"1\">Captures the automatic layout settings applied to a view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Border.yml",
+      "source_relative_path": "api/C4.Net.Border.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Border.html"
+          "relative_path": "api/C4.Net.Border.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Border",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Border.yml\" sourcestartlinenumber=\"1\">Defines the supported border styles for rendered elements.</p>\n"
+      "Title": "C4.Net.Border",
+      "Summary": "<p sourcefile=\"api/C4.Net.Border.yml\" sourcestartlinenumber=\"1\">Defines the supported border styles for rendered elements.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Branding.yml",
+      "source_relative_path": "api/C4.Net.Branding.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Branding.html"
+          "relative_path": "api/C4.Net.Branding.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Branding",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Branding.yml\" sourcestartlinenumber=\"1\">Defines workspace-wide branding such as logos and fonts.</p>\n"
+      "Title": "C4.Net.Branding",
+      "Summary": "<p sourcefile=\"api/C4.Net.Branding.yml\" sourcestartlinenumber=\"1\">Defines workspace-wide branding such as logos and fonts.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.CodeElement.yml",
+      "source_relative_path": "api/C4.Net.CodeElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.CodeElement.html"
+          "relative_path": "api/C4.Net.CodeElement.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.CodeElement",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.CodeElement.yml\" sourcestartlinenumber=\"1\">Represents a code element, such as a class or interface,\nthat is part of the implementation of a component.</p>\n"
+      "Title": "C4.Net.CodeElement",
+      "Summary": "<p sourcefile=\"api/C4.Net.CodeElement.yml\" sourcestartlinenumber=\"1\">Represents a code element, such as a class or interface,\nthat is part of the implementation of a component.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.CodeElementRole.yml",
+      "source_relative_path": "api/C4.Net.CodeElementRole.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.CodeElementRole.html"
+          "relative_path": "api/C4.Net.CodeElementRole.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.CodeElementRole",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.CodeElementRole.yml\" sourcestartlinenumber=\"1\">Identifies how a code element contributes to a component implementation.</p>\n"
+      "Title": "C4.Net.CodeElementRole",
+      "Summary": "<p sourcefile=\"api/C4.Net.CodeElementRole.yml\" sourcestartlinenumber=\"1\">Identifies how a code element contributes to a component implementation.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Color.yml",
+      "source_relative_path": "api/C4.Net.Color.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Color.html"
+          "relative_path": "api/C4.Net.Color.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Color",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Color.yml\" sourcestartlinenumber=\"1\">Provides helpers for validating color values used by the view layer.</p>\n"
+      "Title": "C4.Net.Color",
+      "Summary": "<p sourcefile=\"api/C4.Net.Color.yml\" sourcestartlinenumber=\"1\">Provides helpers for validating color values used by the view layer.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ColorPair.yml",
+      "source_relative_path": "api/C4.Net.ColorPair.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ColorPair.html"
+          "relative_path": "api/C4.Net.ColorPair.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ColorPair",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ColorPair.yml\" sourcestartlinenumber=\"1\">Represents a validated background and foreground color combination.</p>\n"
+      "Title": "C4.Net.ColorPair",
+      "Summary": "<p sourcefile=\"api/C4.Net.ColorPair.yml\" sourcestartlinenumber=\"1\">Represents a validated background and foreground color combination.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Component.yml",
+      "source_relative_path": "api/C4.Net.Component.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Component.html"
+          "relative_path": "api/C4.Net.Component.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Component",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Component.yml\" sourcestartlinenumber=\"1\">A component (a grouping of related functionality behind an interface that runs inside a container).</p>\n"
+      "Title": "C4.Net.Component",
+      "Summary": "<p sourcefile=\"api/C4.Net.Component.yml\" sourcestartlinenumber=\"1\">A component (a grouping of related functionality behind an interface that runs inside a container).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ComponentView.yml",
+      "source_relative_path": "api/C4.Net.ComponentView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ComponentView.html"
+          "relative_path": "api/C4.Net.ComponentView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ComponentView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ComponentView.yml\" sourcestartlinenumber=\"1\">A component view that shows components inside a container and their direct neighbours.</p>\n"
+      "Title": "C4.Net.ComponentView",
+      "Summary": "<p sourcefile=\"api/C4.Net.ComponentView.yml\" sourcestartlinenumber=\"1\">A component view that shows components inside a container and their direct neighbours.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Config.Role.yml",
+      "source_relative_path": "api/C4.Net.Config.Role.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Config.Role.html"
+          "relative_path": "api/C4.Net.Config.Role.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Config.Role",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Config.Role.yml\" sourcestartlinenumber=\"1\">Defines the level of access granted to a workspace user.</p>\n"
+      "Title": "C4.Net.Config.Role",
+      "Summary": "<p sourcefile=\"api/C4.Net.Config.Role.yml\" sourcestartlinenumber=\"1\">Defines the level of access granted to a workspace user.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Config.User.yml",
+      "source_relative_path": "api/C4.Net.Config.User.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Config.User.html"
+          "relative_path": "api/C4.Net.Config.User.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Config.User",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Config.User.yml\" sourcestartlinenumber=\"1\">Represents a configured workspace user and the role assigned to that user.</p>\n"
+      "Title": "C4.Net.Config.User",
+      "Summary": "<p sourcefile=\"api/C4.Net.Config.User.yml\" sourcestartlinenumber=\"1\">Represents a configured workspace user and the role assigned to that user.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Config.WorkspaceConfiguration.yml",
+      "source_relative_path": "api/C4.Net.Config.WorkspaceConfiguration.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Config.WorkspaceConfiguration.html"
+          "relative_path": "api/C4.Net.Config.WorkspaceConfiguration.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Config.WorkspaceConfiguration",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Config.WorkspaceConfiguration.yml\" sourcestartlinenumber=\"1\">Stores workspace access control settings such as the allowed users and their roles.</p>\n"
+      "Title": "C4.Net.Config.WorkspaceConfiguration",
+      "Summary": "<p sourcefile=\"api/C4.Net.Config.WorkspaceConfiguration.yml\" sourcestartlinenumber=\"1\">Stores workspace access control settings such as the allowed users and their roles.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Config.yml",
+      "source_relative_path": "api/C4.Net.Config.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Config.html"
+          "relative_path": "api/C4.Net.Config.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Config",
+      "Title": "C4.Net.Config",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Container.yml",
+      "source_relative_path": "api/C4.Net.Container.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Container.html"
+          "relative_path": "api/C4.Net.Container.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Container",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Container.yml\" sourcestartlinenumber=\"1\">A container (e.g. an application or data store).</p>\n"
+      "Title": "C4.Net.Container",
+      "Summary": "<p sourcefile=\"api/C4.Net.Container.yml\" sourcestartlinenumber=\"1\">A container (e.g. an application or data store).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ContainerInstance.yml",
+      "source_relative_path": "api/C4.Net.ContainerInstance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ContainerInstance.html"
+          "relative_path": "api/C4.Net.ContainerInstance.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ContainerInstance",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ContainerInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a Container, which can be added to a DeploymentNode.</p>\n"
+      "Title": "C4.Net.ContainerInstance",
+      "Summary": "<p sourcefile=\"api/C4.Net.ContainerInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a Container, which can be added to a DeploymentNode.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ContainerView.yml",
+      "source_relative_path": "api/C4.Net.ContainerView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ContainerView.html"
+          "relative_path": "api/C4.Net.ContainerView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ContainerView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ContainerView.yml\" sourcestartlinenumber=\"1\">A container view.</p>\n"
+      "Title": "C4.Net.ContainerView",
+      "Summary": "<p sourcefile=\"api/C4.Net.ContainerView.yml\" sourcestartlinenumber=\"1\">A container view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Core.Util.DictionaryUtils.yml",
+      "source_relative_path": "api/C4.Net.Core.Util.DictionaryUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Core.Util.DictionaryUtils.html"
+          "relative_path": "api/C4.Net.Core.Util.DictionaryUtils.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Core.Util.DictionaryUtils",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Core.Util.DictionaryUtils.yml\" sourcestartlinenumber=\"1\">Creates dictionaries from simple <code>name=value</code> string pairs.</p>\n"
+      "Title": "C4.Net.Core.Util.DictionaryUtils",
+      "Summary": "<p sourcefile=\"api/C4.Net.Core.Util.DictionaryUtils.yml\" sourcestartlinenumber=\"1\">Creates dictionaries from simple <code>name=value</code> string pairs.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Core.Util.yml",
+      "source_relative_path": "api/C4.Net.Core.Util.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Core.Util.html"
+          "relative_path": "api/C4.Net.Core.Util.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Core.Util",
+      "Title": "C4.Net.Core.Util",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Core.View.MetadataSymbols.yml",
+      "source_relative_path": "api/C4.Net.Core.View.MetadataSymbols.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Core.View.MetadataSymbols.html"
+          "relative_path": "api/C4.Net.Core.View.MetadataSymbols.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Core.View.MetadataSymbols",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Core.View.MetadataSymbols.yml\" sourcestartlinenumber=\"1\">The type of symbols to use when rendering metadata.</p>\n"
+      "Title": "C4.Net.Core.View.MetadataSymbols",
+      "Summary": "<p sourcefile=\"api/C4.Net.Core.View.MetadataSymbols.yml\" sourcestartlinenumber=\"1\">The type of symbols to use when rendering metadata.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Core.View.Terminology.yml",
+      "source_relative_path": "api/C4.Net.Core.View.Terminology.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Core.View.Terminology.html"
+          "relative_path": "api/C4.Net.Core.View.Terminology.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Core.View.Terminology",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Core.View.Terminology.yml\" sourcestartlinenumber=\"1\">Provides custom labels for view terminology, such as language-specific translations.</p>\n"
+      "Title": "C4.Net.Core.View.Terminology",
+      "Summary": "<p sourcefile=\"api/C4.Net.Core.View.Terminology.yml\" sourcestartlinenumber=\"1\">Provides custom labels for view terminology, such as language-specific translations.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Core.View.yml",
+      "source_relative_path": "api/C4.Net.Core.View.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Core.View.html"
+          "relative_path": "api/C4.Net.Core.View.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Core.View",
+      "Title": "C4.Net.Core.View",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.yml",
+      "source_relative_path": "api/C4.Net.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.html"
+          "relative_path": "api/C4.Net.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.yml\" sourcestartlinenumber=\"1\">This strategy creates implied relationships between all valid combinations of the parent elements,\nunless any relationship already exists between them.</p>\n"
+      "Title": "C4.Net.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy.yml\" sourcestartlinenumber=\"1\">This strategy creates implied relationships between all valid combinations of the parent elements,\nunless any relationship already exists between them.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.yml",
+      "source_relative_path": "api/C4.Net.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.html"
+          "relative_path": "api/C4.Net.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.yml\" sourcestartlinenumber=\"1\">This strategy creates implied relationships between all valid combinations of the parent elements,\nunless the same relationship already exists between them.</p>\n"
+      "Title": "C4.Net.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy.yml\" sourcestartlinenumber=\"1\">This strategy creates implied relationships between all valid combinations of the parent elements,\nunless the same relationship already exists between them.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DefaultImpliedRelationshipsStrategy.yml",
+      "source_relative_path": "api/C4.Net.DefaultImpliedRelationshipsStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DefaultImpliedRelationshipsStrategy.html"
+          "relative_path": "api/C4.Net.DefaultImpliedRelationshipsStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DefaultImpliedRelationshipsStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DefaultImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">The default strategy is to NOT create implied relationships.</p>\n"
+      "Title": "C4.Net.DefaultImpliedRelationshipsStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.DefaultImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">The default strategy is to NOT create implied relationships.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml",
+      "source_relative_path": "api/C4.Net.DefaultLayoutMergeStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.html"
+          "relative_path": "api/C4.Net.DefaultLayoutMergeStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DefaultLayoutMergeStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"1\">A default implementation of a LayoutMergeStrategy that:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"3\">Sets the paper size (if not set).</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"4\">Copies element x,y positions.</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"5\">Copies relationship vertices.</li>\n</ul>\n<p sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"7\">Elements are matched using the following properties, in order:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"8\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"8\">the element's full canonical name</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"9\">the element's name</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"10\">the element's description</li>\n</ul>\n"
+      "Title": "C4.Net.DefaultLayoutMergeStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"1\">A default implementation of a LayoutMergeStrategy that:</p>\n<ul sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"3\">Sets the paper size (if not set).</li>\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"4\">Copies element x,y positions.</li>\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"5\">Copies relationship vertices.</li>\n</ul>\n<p sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"7\">Elements are matched using the following properties, in order:</p>\n<ul sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"8\">\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"8\">the element's full canonical name</li>\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"9\">the element's name</li>\n<li sourcefile=\"api/C4.Net.DefaultLayoutMergeStrategy.yml\" sourcestartlinenumber=\"10\">the element's description</li>\n</ul>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DeploymentElement.yml",
+      "source_relative_path": "api/C4.Net.DeploymentElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DeploymentElement.html"
+          "relative_path": "api/C4.Net.DeploymentElement.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DeploymentElement",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DeploymentElement.yml\" sourcestartlinenumber=\"1\">This is the superclass for model elements that describe deployment nodes, infrastructure nodes, and container instances.</p>\n"
+      "Title": "C4.Net.DeploymentElement",
+      "Summary": "<p sourcefile=\"api/C4.Net.DeploymentElement.yml\" sourcestartlinenumber=\"1\">This is the superclass for model elements that describe deployment nodes, infrastructure nodes, and container instances.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DeploymentNode.yml",
+      "source_relative_path": "api/C4.Net.DeploymentNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DeploymentNode.html"
+          "relative_path": "api/C4.Net.DeploymentNode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DeploymentNode",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"1\">Represents a deployment node, which is something like:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"2\">Physical infrastructure (e.g. a physical server or device)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"3\">Virtualised infrastructure (e.g. IaaS, PaaS, a virtual machine)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"4\">Containerised infrastructure (e.g. a Docker container)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"5\">Database server</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"6\">Java EE web/application server</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"7\">Microsoft IIS</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.DeploymentNode.yml\" sourcestartlinenumber=\"8\">etc</li>\n</ul>\n"
+      "Title": "C4.Net.DeploymentNode",
+      "Summary": "<p sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"1\">Represents a deployment node, which is something like:</p>\n<ul sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"2\">Physical infrastructure (e.g. a physical server or device)</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"3\">Virtualised infrastructure (e.g. IaaS, PaaS, a virtual machine)</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"4\">Containerised infrastructure (e.g. a Docker container)</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"5\">Database server</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"6\">Java EE web/application server</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"7\">Microsoft IIS</li>\n<li sourcefile=\"api/C4.Net.DeploymentNode.yml\" sourcestartlinenumber=\"8\">etc</li>\n</ul>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DeploymentView.yml",
+      "source_relative_path": "api/C4.Net.DeploymentView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DeploymentView.html"
+          "relative_path": "api/C4.Net.DeploymentView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DeploymentView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DeploymentView.yml\" sourcestartlinenumber=\"1\">A deployment view, used to show the mapping of container instances to deployment nodes.</p>\n"
+      "Title": "C4.Net.DeploymentView",
+      "Summary": "<p sourcefile=\"api/C4.Net.DeploymentView.yml\" sourcestartlinenumber=\"1\">A deployment view, used to show the mapping of container instances to deployment nodes.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dimensions.yml",
+      "source_relative_path": "api/C4.Net.Dimensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dimensions.html"
+          "relative_path": "api/C4.Net.Dimensions.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dimensions",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dimensions.yml\" sourcestartlinenumber=\"1\">Describes an explicit view size in pixels.</p>\n"
+      "Title": "C4.Net.Dimensions",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dimensions.yml\" sourcestartlinenumber=\"1\">Describes an explicit view size in pixels.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Arc42DocumentationTemplate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.html"
+          "relative_path": "api/C4.Net.Documentation.Arc42DocumentationTemplate.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">An implementation of the arc42 documentation template (<a href=\"http://arc42.org\" sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">http://arc42.org</a>)\nconsisting of the following sections:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"3\">Introduction and Goals (1)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"4\">Constraints (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"5\">Context and Scope (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"6\">Solution Strategy (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"7\">Building Block View (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"8\">Runtime View (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"9\">Deployment View (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"10\">Crosscutting Concepts (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"11\">Architectural Decisions (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"12\">Quality Requirements (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"13\">Risks and Technical Debt (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"14\">Glossary (5)</li>\n</ul>\n<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"16\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
+      "Title": "C4.Net.Documentation.Arc42DocumentationTemplate",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">An implementation of the arc42 documentation template (<a href=\"http://arc42.org\" sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">http://arc42.org</a>)\nconsisting of the following sections:</p>\n<ul sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"3\">Introduction and Goals (1)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"4\">Constraints (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"5\">Context and Scope (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"6\">Solution Strategy (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"7\">Building Block View (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"8\">Runtime View (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"9\">Deployment View (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"10\">Crosscutting Concepts (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"11\">Architectural Decisions (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"12\">Quality Requirements (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"13\">Risks and Technical Debt (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"14\">Glossary (5)</li>\n</ul>\n<p sourcefile=\"api/C4.Net.Documentation.Arc42DocumentationTemplate.yml\" sourcestartlinenumber=\"16\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Decision.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Decision.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Decision.html"
+          "relative_path": "api/C4.Net.Documentation.Decision.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Decision",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Decision.yml\" sourcestartlinenumber=\"1\">Represents a single (architecture) decision, as described at <a href=\"http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions\" sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Decision.yml\" sourcestartlinenumber=\"1\">http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions</a></p>\n"
+      "Title": "C4.Net.Documentation.Decision",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Decision.yml\" sourcestartlinenumber=\"1\">Represents a single (architecture) decision, as described at <a href=\"http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions\" sourcefile=\"api/C4.Net.Documentation.Decision.yml\" sourcestartlinenumber=\"1\">http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions</a></p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.DecisionStatus.yml",
+      "source_relative_path": "api/C4.Net.Documentation.DecisionStatus.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.DecisionStatus.html"
+          "relative_path": "api/C4.Net.Documentation.DecisionStatus.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.DecisionStatus",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.DecisionStatus.yml\" sourcestartlinenumber=\"1\">Represents the status of a decision.</p>\n"
+      "Title": "C4.Net.Documentation.DecisionStatus",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.DecisionStatus.yml\" sourcestartlinenumber=\"1\">Represents the status of a decision.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Documentation.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Documentation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Documentation.html"
+          "relative_path": "api/C4.Net.Documentation.Documentation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Documentation",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Documentation.yml\" sourcestartlinenumber=\"1\">Represents the documentation within a workspace - a collection of\ncontent in Markdown or AsciiDoc format, optionally with attached images.</p>\n<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Documentation.yml\" sourcestartlinenumber=\"4\">See <a href=\"https://structurizr.com/help/documentation\" sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Documentation.yml\" sourcestartlinenumber=\"4\">https://structurizr.com/help/documentation</a> on the Structurizr website for more details.</p>\n"
+      "Title": "C4.Net.Documentation.Documentation",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Documentation.yml\" sourcestartlinenumber=\"1\">Represents the documentation within a workspace - a collection of\ncontent in Markdown or AsciiDoc format, optionally with attached images.</p>\n<p sourcefile=\"api/C4.Net.Documentation.Documentation.yml\" sourcestartlinenumber=\"4\">See <a href=\"https://structurizr.com/help/documentation\" sourcefile=\"api/C4.Net.Documentation.Documentation.yml\" sourcestartlinenumber=\"4\">https://structurizr.com/help/documentation</a> on the Structurizr website for more details.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.DocumentationTemplate.yml",
+      "source_relative_path": "api/C4.Net.Documentation.DocumentationTemplate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.DocumentationTemplate.html"
+          "relative_path": "api/C4.Net.Documentation.DocumentationTemplate.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.DocumentationTemplate",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">The superclass for all documentation templates.</p>\n"
+      "Title": "C4.Net.Documentation.DocumentationTemplate",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.DocumentationTemplate.yml\" sourcestartlinenumber=\"1\">The superclass for all documentation templates.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Format.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Format.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Format.html"
+          "relative_path": "api/C4.Net.Documentation.Format.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Format",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Format.yml\" sourcestartlinenumber=\"1\">Identifies the markup format used by a documentation section or decision.</p>\n"
+      "Title": "C4.Net.Documentation.Format",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Format.yml\" sourcestartlinenumber=\"1\">Identifies the markup format used by a documentation section or decision.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Image.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Image.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Image.html"
+          "relative_path": "api/C4.Net.Documentation.Image.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Image",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Image.yml\" sourcestartlinenumber=\"1\">Represents an image asset that can be embedded from workspace documentation.</p>\n"
+      "Title": "C4.Net.Documentation.Image",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Image.yml\" sourcestartlinenumber=\"1\">Represents an image asset that can be embedded from workspace documentation.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.Section.yml",
+      "source_relative_path": "api/C4.Net.Documentation.Section.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.Section.html"
+          "relative_path": "api/C4.Net.Documentation.Section.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.Section",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.Section.yml\" sourcestartlinenumber=\"1\">Represents a single documentation section attached to the workspace or a model element.</p>\n"
+      "Title": "C4.Net.Documentation.Section",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.Section.yml\" sourcestartlinenumber=\"1\">Represents a single documentation section attached to the workspace or a model element.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml",
+      "source_relative_path": "api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.html"
+          "relative_path": "api/C4.Net.Documentation.StructurizrDocumentationTemplate.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"1\">A simple documentation template, based upon the &quot;software guidebook&quot; concept in Simon Brown's\n<a href=\"https://leanpub.com/visualising-software-architecture\">Software Architecture for Developers</a>\nbook, with the following sections:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"5\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"5\">Context (1)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"6\">Functional Overview (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"7\">Quality Attributes (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"8\">Constraints (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"9\">Principles (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"10\">Software Architecture (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"11\">Containers (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"12\">Components (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"13\">Code (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"14\">Data (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"15\">Infrastructure Architecture (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"16\">Deployment (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"17\">Development Environment (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"18\">Operation and Support (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"19\">Decision Log (5)</li>\n</ul>\n<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"21\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
+      "Title": "C4.Net.Documentation.StructurizrDocumentationTemplate",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"1\">A simple documentation template, based upon the &quot;software guidebook&quot; concept in Simon Brown's\n<a href=\"https://leanpub.com/visualising-software-architecture\">Software Architecture for Developers</a>\nbook, with the following sections:</p>\n<ul sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"5\">\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"5\">Context (1)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"6\">Functional Overview (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"7\">Quality Attributes (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"8\">Constraints (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"9\">Principles (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"10\">Software Architecture (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"11\">Containers (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"12\">Components (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"13\">Code (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"14\">Data (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"15\">Infrastructure Architecture (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"16\">Deployment (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"17\">Development Environment (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"18\">Operation and Support (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"19\">Decision Log (5)</li>\n</ul>\n<p sourcefile=\"api/C4.Net.Documentation.StructurizrDocumentationTemplate.yml\" sourcestartlinenumber=\"21\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml",
+      "source_relative_path": "api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.html"
+          "relative_path": "api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"1\">An implementation of the &quot;Viewpoints and Perspectives&quot; documentation template\n(<a href=\"http://www.viewpoints-and-perspectives.info\" sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"2\">http://www.viewpoints-and-perspectives.info</a>),\nfrom the &quot;Software Systems Architecture&quot; book by Nick Rozanski and Eoin Woods,\nconsisting of the following sections:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"6\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"6\">Introduction (1)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"7\">Glossary (1)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"8\">System Stakeholders and Requirements (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"9\">Architectural Forces (2)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"10\">Architectural Views (3)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"11\">System Qualities (4)</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"12\">Appendices (5)</li>\n</ul>\n<p sourcefile=\"api/StacyClouds.C4Sharp.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"14\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
+      "Title": "C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation",
+      "Summary": "<p sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"1\">An implementation of the &quot;Viewpoints and Perspectives&quot; documentation template\n(<a href=\"http://www.viewpoints-and-perspectives.info\" sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"2\">http://www.viewpoints-and-perspectives.info</a>),\nfrom the &quot;Software Systems Architecture&quot; book by Nick Rozanski and Eoin Woods,\nconsisting of the following sections:</p>\n<ul sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"6\">\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"6\">Introduction (1)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"7\">Glossary (1)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"8\">System Stakeholders and Requirements (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"9\">Architectural Forces (2)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"10\">Architectural Views (3)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"11\">System Qualities (4)</li>\n<li sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"12\">Appendices (5)</li>\n</ul>\n<p sourcefile=\"api/C4.Net.Documentation.ViewpointsAndPerspectivesDocumentation.yml\" sourcestartlinenumber=\"14\">The number in parentheses () represents the grouping, which is simply used to colour code\nsection navigation buttons when rendered.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Documentation.yml",
+      "source_relative_path": "api/C4.Net.Documentation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Documentation.html"
+          "relative_path": "api/C4.Net.Documentation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Documentation",
+      "Title": "C4.Net.Documentation",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslComponent.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslComponent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslComponent.html"
+          "relative_path": "api/C4.Net.Dsl.DslComponent.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslComponent",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslComponent.yml\" sourcestartlinenumber=\"1\">Describes a component to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslComponent",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslComponent.yml\" sourcestartlinenumber=\"1\">Describes a component to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslComponentView.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslComponentView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslComponentView.html"
+          "relative_path": "api/C4.Net.Dsl.DslComponentView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslComponentView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslComponentView.yml\" sourcestartlinenumber=\"1\">Describes a component view to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslComponentView",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslComponentView.yml\" sourcestartlinenumber=\"1\">Describes a component view to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslContainer.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslContainer.html"
+          "relative_path": "api/C4.Net.Dsl.DslContainer.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslContainer",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslContainer.yml\" sourcestartlinenumber=\"1\">Describes a container to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslContainer",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslContainer.yml\" sourcestartlinenumber=\"1\">Describes a container to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslContainerView.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslContainerView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslContainerView.html"
+          "relative_path": "api/C4.Net.Dsl.DslContainerView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslContainerView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslContainerView.yml\" sourcestartlinenumber=\"1\">Describes a container view to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslContainerView",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslContainerView.yml\" sourcestartlinenumber=\"1\">Describes a container view to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslIdGenerator.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslIdGenerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslIdGenerator.html"
+          "relative_path": "api/C4.Net.Dsl.DslIdGenerator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslIdGenerator",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslIdGenerator.yml\" sourcestartlinenumber=\"1\">Generates stable, slug-based identifiers for elements and relationships imported from DSL-shaped data.</p>\n"
+      "Title": "C4.Net.Dsl.DslIdGenerator",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslIdGenerator.yml\" sourcestartlinenumber=\"1\">Generates stable, slug-based identifiers for elements and relationships imported from DSL-shaped data.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslImportOptions.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslImportOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslImportOptions.html"
+          "relative_path": "api/C4.Net.Dsl.DslImportOptions.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslImportOptions",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslImportOptions.yml\" sourcestartlinenumber=\"1\">Configures how a DSL-shaped workspace should be imported.</p>\n"
+      "Title": "C4.Net.Dsl.DslImportOptions",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslImportOptions.yml\" sourcestartlinenumber=\"1\">Configures how a DSL-shaped workspace should be imported.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslModel.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslModel.html"
+          "relative_path": "api/C4.Net.Dsl.DslModel.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslModel",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslModel.yml\" sourcestartlinenumber=\"1\">Represents the DSL-shaped model portion of an imported workspace.</p>\n"
+      "Title": "C4.Net.Dsl.DslModel",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslModel.yml\" sourcestartlinenumber=\"1\">Represents the DSL-shaped model portion of an imported workspace.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslPerson.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslPerson.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslPerson.html"
+          "relative_path": "api/C4.Net.Dsl.DslPerson.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslPerson",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslPerson.yml\" sourcestartlinenumber=\"1\">Describes a person to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslPerson",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslPerson.yml\" sourcestartlinenumber=\"1\">Describes a person to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslRelationship.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslRelationship.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslRelationship.html"
+          "relative_path": "api/C4.Net.Dsl.DslRelationship.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslRelationship",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslRelationship.yml\" sourcestartlinenumber=\"1\">Describes a relationship to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslRelationship",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslRelationship.yml\" sourcestartlinenumber=\"1\">Describes a relationship to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSoftwareSystem.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslSoftwareSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSoftwareSystem.html"
+          "relative_path": "api/C4.Net.Dsl.DslSoftwareSystem.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslSoftwareSystem",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslSoftwareSystem.yml\" sourcestartlinenumber=\"1\">Describes a software system to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslSoftwareSystem",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslSoftwareSystem.yml\" sourcestartlinenumber=\"1\">Describes a software system to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSystemContextView.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslSystemContextView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSystemContextView.html"
+          "relative_path": "api/C4.Net.Dsl.DslSystemContextView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslSystemContextView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslSystemContextView.yml\" sourcestartlinenumber=\"1\">Describes a system context view to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslSystemContextView",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslSystemContextView.yml\" sourcestartlinenumber=\"1\">Describes a system context view to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSystemLandscapeView.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslSystemLandscapeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslSystemLandscapeView.html"
+          "relative_path": "api/C4.Net.Dsl.DslSystemLandscapeView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslSystemLandscapeView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslSystemLandscapeView.yml\" sourcestartlinenumber=\"1\">Describes a system landscape view to import.</p>\n"
+      "Title": "C4.Net.Dsl.DslSystemLandscapeView",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslSystemLandscapeView.yml\" sourcestartlinenumber=\"1\">Describes a system landscape view to import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslViewDefinition.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslViewDefinition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslViewDefinition.html"
+          "relative_path": "api/C4.Net.Dsl.DslViewDefinition.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslViewDefinition",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslViewDefinition.yml\" sourcestartlinenumber=\"1\">Provides the common fields shared by imported view definitions.</p>\n"
+      "Title": "C4.Net.Dsl.DslViewDefinition",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslViewDefinition.yml\" sourcestartlinenumber=\"1\">Provides the common fields shared by imported view definitions.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslViews.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslViews.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslViews.html"
+          "relative_path": "api/C4.Net.Dsl.DslViews.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslViews",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslViews.yml\" sourcestartlinenumber=\"1\">Collects the view definitions that can be imported into a workspace.</p>\n"
+      "Title": "C4.Net.Dsl.DslViews",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslViews.yml\" sourcestartlinenumber=\"1\">Collects the view definitions that can be imported into a workspace.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslWorkspace.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslWorkspace.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslWorkspace.html"
+          "relative_path": "api/C4.Net.Dsl.DslWorkspace.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslWorkspace",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslWorkspace.yml\" sourcestartlinenumber=\"1\">Represents a simplified, Structurizr DSL-shaped workspace definition for import.</p>\n"
+      "Title": "C4.Net.Dsl.DslWorkspace",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslWorkspace.yml\" sourcestartlinenumber=\"1\">Represents a simplified, Structurizr DSL-shaped workspace definition for import.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.DslWorkspaceImporter.yml",
+      "source_relative_path": "api/C4.Net.Dsl.DslWorkspaceImporter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.DslWorkspaceImporter.html"
+          "relative_path": "api/C4.Net.Dsl.DslWorkspaceImporter.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl.DslWorkspaceImporter",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Dsl.DslWorkspaceImporter.yml\" sourcestartlinenumber=\"1\">Imports simplified DSL-shaped workspace definitions into the core workspace model.</p>\n"
+      "Title": "C4.Net.Dsl.DslWorkspaceImporter",
+      "Summary": "<p sourcefile=\"api/C4.Net.Dsl.DslWorkspaceImporter.yml\" sourcestartlinenumber=\"1\">Imports simplified DSL-shaped workspace definitions into the core workspace model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Dsl.yml",
+      "source_relative_path": "api/C4.Net.Dsl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Dsl.html"
+          "relative_path": "api/C4.Net.Dsl.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Dsl",
+      "Title": "C4.Net.Dsl",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.DynamicView.yml",
+      "source_relative_path": "api/C4.Net.DynamicView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.DynamicView.html"
+          "relative_path": "api/C4.Net.DynamicView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.DynamicView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.DynamicView.yml\" sourcestartlinenumber=\"1\">A dynamic view, used to describe behaviour between static elements at runtime.</p>\n"
+      "Title": "C4.Net.DynamicView",
+      "Summary": "<p sourcefile=\"api/C4.Net.DynamicView.yml\" sourcestartlinenumber=\"1\">A dynamic view, used to describe behaviour between static elements at runtime.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Editor.WorkspaceEditorState.yml",
+      "source_relative_path": "api/C4.Net.Editor.WorkspaceEditorState.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Editor.WorkspaceEditorState.html"
+          "relative_path": "api/C4.Net.Editor.WorkspaceEditorState.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Editor.WorkspaceEditorState",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Editor.WorkspaceEditorState.yml\" sourcestartlinenumber=\"1\">Mutates persisted layout information for the currently selected workspace view.</p>\n"
+      "Title": "C4.Net.Editor.WorkspaceEditorState",
+      "Summary": "<p sourcefile=\"api/C4.Net.Editor.WorkspaceEditorState.yml\" sourcestartlinenumber=\"1\">Mutates persisted layout information for the currently selected workspace view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Editor.yml",
+      "source_relative_path": "api/C4.Net.Editor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Editor.html"
+          "relative_path": "api/C4.Net.Editor.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Editor",
+      "Title": "C4.Net.Editor",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Element.yml",
+      "source_relative_path": "api/C4.Net.Element.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Element.html"
+          "relative_path": "api/C4.Net.Element.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Element",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Element.yml\" sourcestartlinenumber=\"1\">This is the superclass for all model elements.</p>\n"
+      "Title": "C4.Net.Element",
+      "Summary": "<p sourcefile=\"api/C4.Net.Element.yml\" sourcestartlinenumber=\"1\">This is the superclass for all model elements.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ElementNotPermittedInViewException.yml",
+      "source_relative_path": "api/C4.Net.ElementNotPermittedInViewException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ElementNotPermittedInViewException.html"
+          "relative_path": "api/C4.Net.ElementNotPermittedInViewException.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ElementNotPermittedInViewException",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ElementNotPermittedInViewException.yml\" sourcestartlinenumber=\"1\">The exception thrown when a view rejects an element type or scope.</p>\n"
+      "Title": "C4.Net.ElementNotPermittedInViewException",
+      "Summary": "<p sourcefile=\"api/C4.Net.ElementNotPermittedInViewException.yml\" sourcestartlinenumber=\"1\">The exception thrown when a view rejects an element type or scope.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ElementStyle.yml",
+      "source_relative_path": "api/C4.Net.ElementStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ElementStyle.html"
+          "relative_path": "api/C4.Net.ElementStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ElementStyle",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ElementStyle.yml\" sourcestartlinenumber=\"1\">A definition of an element style.</p>\n"
+      "Title": "C4.Net.ElementStyle",
+      "Summary": "<p sourcefile=\"api/C4.Net.ElementStyle.yml\" sourcestartlinenumber=\"1\">A definition of an element style.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ElementView.yml",
+      "source_relative_path": "api/C4.Net.ElementView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ElementView.html"
+          "relative_path": "api/C4.Net.ElementView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ElementView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ElementView.yml\" sourcestartlinenumber=\"1\">An instance of a model element (Person, Software System, Container or Component) in a View.</p>\n"
+      "Title": "C4.Net.ElementView",
+      "Summary": "<p sourcefile=\"api/C4.Net.ElementView.yml\" sourcestartlinenumber=\"1\">An instance of a model element (Person, Software System, Container or Component) in a View.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.AesEncryptionStrategy.yml",
+      "source_relative_path": "api/C4.Net.Encryption.AesEncryptionStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.AesEncryptionStrategy.html"
+          "relative_path": "api/C4.Net.Encryption.AesEncryptionStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption.AesEncryptionStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Encryption.AesEncryptionStrategy.yml\" sourcestartlinenumber=\"1\">Encrypts workspace JSON using AES/CBC with PBKDF2-derived keys.</p>\n"
+      "Title": "C4.Net.Encryption.AesEncryptionStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.Encryption.AesEncryptionStrategy.yml\" sourcestartlinenumber=\"1\">Encrypts workspace JSON using AES/CBC with PBKDF2-derived keys.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedJsonReader.yml",
+      "source_relative_path": "api/C4.Net.Encryption.EncryptedJsonReader.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedJsonReader.html"
+          "relative_path": "api/C4.Net.Encryption.EncryptedJsonReader.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption.EncryptedJsonReader",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Encryption.EncryptedJsonReader.yml\" sourcestartlinenumber=\"1\">Deserializes encrypted workspace JSON payloads.</p>\n"
+      "Title": "C4.Net.Encryption.EncryptedJsonReader",
+      "Summary": "<p sourcefile=\"api/C4.Net.Encryption.EncryptedJsonReader.yml\" sourcestartlinenumber=\"1\">Deserializes encrypted workspace JSON payloads.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedJsonWriter.yml",
+      "source_relative_path": "api/C4.Net.Encryption.EncryptedJsonWriter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedJsonWriter.html"
+          "relative_path": "api/C4.Net.Encryption.EncryptedJsonWriter.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption.EncryptedJsonWriter",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Encryption.EncryptedJsonWriter.yml\" sourcestartlinenumber=\"1\">Serializes encrypted workspace instances to JSON.</p>\n"
+      "Title": "C4.Net.Encryption.EncryptedJsonWriter",
+      "Summary": "<p sourcefile=\"api/C4.Net.Encryption.EncryptedJsonWriter.yml\" sourcestartlinenumber=\"1\">Serializes encrypted workspace instances to JSON.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedWorkspace.yml",
+      "source_relative_path": "api/C4.Net.Encryption.EncryptedWorkspace.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptedWorkspace.html"
+          "relative_path": "api/C4.Net.Encryption.EncryptedWorkspace.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption.EncryptedWorkspace",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Encryption.EncryptedWorkspace.yml\" sourcestartlinenumber=\"1\">Wraps a workspace together with the metadata needed to store it in encrypted form.</p>\n"
+      "Title": "C4.Net.Encryption.EncryptedWorkspace",
+      "Summary": "<p sourcefile=\"api/C4.Net.Encryption.EncryptedWorkspace.yml\" sourcestartlinenumber=\"1\">Wraps a workspace together with the metadata needed to store it in encrypted form.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptionStrategy.yml",
+      "source_relative_path": "api/C4.Net.Encryption.EncryptionStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.EncryptionStrategy.html"
+          "relative_path": "api/C4.Net.Encryption.EncryptionStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption.EncryptionStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Encryption.EncryptionStrategy.yml\" sourcestartlinenumber=\"1\">Defines the contract for client-side workspace encryption strategies.</p>\n"
+      "Title": "C4.Net.Encryption.EncryptionStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.Encryption.EncryptionStrategy.yml\" sourcestartlinenumber=\"1\">Defines the contract for client-side workspace encryption strategies.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Encryption.yml",
+      "source_relative_path": "api/C4.Net.Encryption.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Encryption.html"
+          "relative_path": "api/C4.Net.Encryption.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Encryption",
+      "Title": "C4.Net.Encryption",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Enterprise.yml",
+      "source_relative_path": "api/C4.Net.Enterprise.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Enterprise.html"
+          "relative_path": "api/C4.Net.Enterprise.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Enterprise",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Enterprise.yml\" sourcestartlinenumber=\"1\">Represents the enterprise boundary that owns the software systems in a model.</p>\n"
+      "Title": "C4.Net.Enterprise",
+      "Summary": "<p sourcefile=\"api/C4.Net.Enterprise.yml\" sourcestartlinenumber=\"1\">Represents the enterprise boundary that owns the software systems in a model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.FilterMode.yml",
+      "source_relative_path": "api/C4.Net.FilterMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.FilterMode.html"
+          "relative_path": "api/C4.Net.FilterMode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.FilterMode",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.FilterMode.yml\" sourcestartlinenumber=\"1\">Determines whether a filtered view keeps or hides matching tags.</p>\n"
+      "Title": "C4.Net.FilterMode",
+      "Summary": "<p sourcefile=\"api/C4.Net.FilterMode.yml\" sourcestartlinenumber=\"1\">Determines whether a filtered view keeps or hides matching tags.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.FilteredView.yml",
+      "source_relative_path": "api/C4.Net.FilteredView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.FilteredView.html"
+          "relative_path": "api/C4.Net.FilteredView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.FilteredView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.FilteredView.yml\" sourcestartlinenumber=\"1\">Represents a view on top of a view, which can be used to include or exclude specific elements.</p>\n"
+      "Title": "C4.Net.FilteredView",
+      "Summary": "<p sourcefile=\"api/C4.Net.FilteredView.yml\" sourcestartlinenumber=\"1\">Represents a view on top of a view, which can be used to include or exclude specific elements.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Font.yml",
+      "source_relative_path": "api/C4.Net.Font.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Font.html"
+          "relative_path": "api/C4.Net.Font.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Font",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Font.yml\" sourcestartlinenumber=\"1\">Describes an external font resource used by branding.</p>\n"
+      "Title": "C4.Net.Font",
+      "Summary": "<p sourcefile=\"api/C4.Net.Font.yml\" sourcestartlinenumber=\"1\">Describes an external font resource used by branding.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.GroupableElement.yml",
+      "source_relative_path": "api/C4.Net.GroupableElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.GroupableElement.html"
+          "relative_path": "api/C4.Net.GroupableElement.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.GroupableElement",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.GroupableElement.yml\" sourcestartlinenumber=\"1\">Extends an element with optional grouping metadata used by views and renderers.</p>\n"
+      "Title": "C4.Net.GroupableElement",
+      "Summary": "<p sourcefile=\"api/C4.Net.GroupableElement.yml\" sourcestartlinenumber=\"1\">Extends an element with optional grouping metadata used by views and renderers.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.HttpHealthCheck.yml",
+      "source_relative_path": "api/C4.Net.HttpHealthCheck.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.HttpHealthCheck.html"
+          "relative_path": "api/C4.Net.HttpHealthCheck.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.HttpHealthCheck",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.HttpHealthCheck.yml\" sourcestartlinenumber=\"1\">Represents a HTTP-based health check.</p>\n"
+      "Title": "C4.Net.HttpHealthCheck",
+      "Summary": "<p sourcefile=\"api/C4.Net.HttpHealthCheck.yml\" sourcestartlinenumber=\"1\">Represents a HTTP-based health check.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.IImpliedRelationshipsStrategy.yml",
+      "source_relative_path": "api/C4.Net.IImpliedRelationshipsStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.IImpliedRelationshipsStrategy.html"
+          "relative_path": "api/C4.Net.IImpliedRelationshipsStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.IImpliedRelationshipsStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.IImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">Defines the contract for strategies that create implied relationships after an explicit relationship is added.</p>\n"
+      "Title": "C4.Net.IImpliedRelationshipsStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.IImpliedRelationshipsStrategy.yml\" sourcestartlinenumber=\"1\">Defines the contract for strategies that create implied relationships after an explicit relationship is added.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.IO.Json.JsonReader.yml",
+      "source_relative_path": "api/C4.Net.IO.Json.JsonReader.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.IO.Json.JsonReader.html"
+          "relative_path": "api/C4.Net.IO.Json.JsonReader.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.IO.Json.JsonReader",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.IO.Json.JsonReader.yml\" sourcestartlinenumber=\"1\">Deserializes workspace JSON payloads into hydrated workspace objects.</p>\n"
+      "Title": "C4.Net.IO.Json.JsonReader",
+      "Summary": "<p sourcefile=\"api/C4.Net.IO.Json.JsonReader.yml\" sourcestartlinenumber=\"1\">Deserializes workspace JSON payloads into hydrated workspace objects.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.IO.Json.JsonWriter.yml",
+      "source_relative_path": "api/C4.Net.IO.Json.JsonWriter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.IO.Json.JsonWriter.html"
+          "relative_path": "api/C4.Net.IO.Json.JsonWriter.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.IO.Json.JsonWriter",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.IO.Json.JsonWriter.yml\" sourcestartlinenumber=\"1\">Serializes workspaces to JSON.</p>\n"
+      "Title": "C4.Net.IO.Json.JsonWriter",
+      "Summary": "<p sourcefile=\"api/C4.Net.IO.Json.JsonWriter.yml\" sourcestartlinenumber=\"1\">Serializes workspaces to JSON.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.IO.Json.yml",
+      "source_relative_path": "api/C4.Net.IO.Json.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.IO.Json.html"
+          "relative_path": "api/C4.Net.IO.Json.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.IO.Json",
+      "Title": "C4.Net.IO.Json",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.IdGenerator.yml",
+      "source_relative_path": "api/C4.Net.IdGenerator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.IdGenerator.html"
+          "relative_path": "api/C4.Net.IdGenerator.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.IdGenerator",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.IdGenerator.yml\" sourcestartlinenumber=\"1\">Defines how identifiers are generated and tracked for model elements and relationships.</p>\n"
+      "Title": "C4.Net.IdGenerator",
+      "Summary": "<p sourcefile=\"api/C4.Net.IdGenerator.yml\" sourcestartlinenumber=\"1\">Defines how identifiers are generated and tracked for model elements and relationships.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.InfrastructureNode.yml",
+      "source_relative_path": "api/C4.Net.InfrastructureNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.InfrastructureNode.html"
+          "relative_path": "api/C4.Net.InfrastructureNode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.InfrastructureNode",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"1\">Represents an infrastructure node, which is something like:</p>\n<ul sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"2\">Load balancer</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"3\">Firewall</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"4\">DNS service</li>\n<li sourcefile=\"api/StacyClouds.C4Sharp.InfrastructureNode.yml\" sourcestartlinenumber=\"5\">etc</li>\n</ul>\n"
+      "Title": "C4.Net.InfrastructureNode",
+      "Summary": "<p sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"1\">Represents an infrastructure node, which is something like:</p>\n<ul sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"2\">Load balancer</li>\n<li sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"3\">Firewall</li>\n<li sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"4\">DNS service</li>\n<li sourcefile=\"api/C4.Net.InfrastructureNode.yml\" sourcestartlinenumber=\"5\">etc</li>\n</ul>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.InteractionStyle.yml",
+      "source_relative_path": "api/C4.Net.InteractionStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.InteractionStyle.html"
+          "relative_path": "api/C4.Net.InteractionStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.InteractionStyle",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.InteractionStyle.yml\" sourcestartlinenumber=\"1\">Describes whether a relationship happens synchronously or asynchronously.</p>\n"
+      "Title": "C4.Net.InteractionStyle",
+      "Summary": "<p sourcefile=\"api/C4.Net.InteractionStyle.yml\" sourcestartlinenumber=\"1\">Describes whether a relationship happens synchronously or asynchronously.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.LayoutMergeStrategy.yml",
+      "source_relative_path": "api/C4.Net.LayoutMergeStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.LayoutMergeStrategy.html"
+          "relative_path": "api/C4.Net.LayoutMergeStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.LayoutMergeStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.LayoutMergeStrategy.yml\" sourcestartlinenumber=\"1\">A pluggable strategy that can be used to copy layout information from one version of a view to another.</p>\n"
+      "Title": "C4.Net.LayoutMergeStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.LayoutMergeStrategy.yml\" sourcestartlinenumber=\"1\">A pluggable strategy that can be used to copy layout information from one version of a view to another.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Location.yml",
+      "source_relative_path": "api/C4.Net.Location.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Location.html"
+          "relative_path": "api/C4.Net.Location.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Location",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Location.yml\" sourcestartlinenumber=\"1\">Describes whether an element belongs inside or outside the enterprise boundary.</p>\n"
+      "Title": "C4.Net.Location",
+      "Summary": "<p sourcefile=\"api/C4.Net.Location.yml\" sourcestartlinenumber=\"1\">Describes whether an element belongs inside or outside the enterprise boundary.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Model.yml",
+      "source_relative_path": "api/C4.Net.Model.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Model.html"
+          "relative_path": "api/C4.Net.Model.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Model",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Model.yml\" sourcestartlinenumber=\"1\">A software architecture model.</p>\n"
+      "Title": "C4.Net.Model",
+      "Summary": "<p sourcefile=\"api/C4.Net.Model.yml\" sourcestartlinenumber=\"1\">A software architecture model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ModelItem.yml",
+      "source_relative_path": "api/C4.Net.ModelItem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ModelItem.html"
+          "relative_path": "api/C4.Net.ModelItem.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ModelItem",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ModelItem.yml\" sourcestartlinenumber=\"1\">Provides common metadata shared by elements and relationships in the model.</p>\n"
+      "Title": "C4.Net.ModelItem",
+      "Summary": "<p sourcefile=\"api/C4.Net.ModelItem.yml\" sourcestartlinenumber=\"1\">Provides common metadata shared by elements and relationships in the model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Orientation.yml",
+      "source_relative_path": "api/C4.Net.Orientation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Orientation.html"
+          "relative_path": "api/C4.Net.Orientation.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Orientation",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Orientation.yml\" sourcestartlinenumber=\"1\">Identifies the orientation of a paper size.</p>\n"
+      "Title": "C4.Net.Orientation",
+      "Summary": "<p sourcefile=\"api/C4.Net.Orientation.yml\" sourcestartlinenumber=\"1\">Identifies the orientation of a paper size.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.PaperSize.yml",
+      "source_relative_path": "api/C4.Net.PaperSize.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.PaperSize.html"
+          "relative_path": "api/C4.Net.PaperSize.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.PaperSize",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.PaperSize.yml\" sourcestartlinenumber=\"1\">Represents a named paper or slide size that can be assigned to a view.</p>\n"
+      "Title": "C4.Net.PaperSize",
+      "Summary": "<p sourcefile=\"api/C4.Net.PaperSize.yml\" sourcestartlinenumber=\"1\">Represents a named paper or slide size that can be assigned to a view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Person.yml",
+      "source_relative_path": "api/C4.Net.Person.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Person.html"
+          "relative_path": "api/C4.Net.Person.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Person",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Person.yml\" sourcestartlinenumber=\"1\">A person who uses a software system.</p>\n"
+      "Title": "C4.Net.Person",
+      "Summary": "<p sourcefile=\"api/C4.Net.Person.yml\" sourcestartlinenumber=\"1\">A person who uses a software system.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Perspective.yml",
+      "source_relative_path": "api/C4.Net.Perspective.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Perspective.html"
+          "relative_path": "api/C4.Net.Perspective.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Perspective",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Perspective.yml\" sourcestartlinenumber=\"1\">Represents an architectural perspective, that can be applied to elements and relationships.\nSee <a href=\"https://www.viewpoints-and-perspectives.info/home/perspectives/\" sourcefile=\"api/StacyClouds.C4Sharp.Perspective.yml\" sourcestartlinenumber=\"2\">https://www.viewpoints-and-perspectives.info/home/perspectives/</a> for more details of this concept</p>\n"
+      "Title": "C4.Net.Perspective",
+      "Summary": "<p sourcefile=\"api/C4.Net.Perspective.yml\" sourcestartlinenumber=\"1\">Represents an architectural perspective, that can be applied to elements and relationships.\nSee <a href=\"https://www.viewpoints-and-perspectives.info/home/perspectives/\" sourcefile=\"api/C4.Net.Perspective.yml\" sourcestartlinenumber=\"2\">https://www.viewpoints-and-perspectives.info/home/perspectives/</a> for more details of this concept</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.RankDirection.yml",
+      "source_relative_path": "api/C4.Net.RankDirection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.RankDirection.html"
+          "relative_path": "api/C4.Net.RankDirection.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.RankDirection",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.RankDirection.yml\" sourcestartlinenumber=\"1\">Specifies the direction used by automatic layout to arrange ranks.</p>\n"
+      "Title": "C4.Net.RankDirection",
+      "Summary": "<p sourcefile=\"api/C4.Net.RankDirection.yml\" sourcestartlinenumber=\"1\">Specifies the direction used by automatic layout to arrange ranks.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Relationship.yml",
+      "source_relative_path": "api/C4.Net.Relationship.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Relationship.html"
+          "relative_path": "api/C4.Net.Relationship.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Relationship",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Relationship.yml\" sourcestartlinenumber=\"1\">A relationship between two elements.</p>\n"
+      "Title": "C4.Net.Relationship",
+      "Summary": "<p sourcefile=\"api/C4.Net.Relationship.yml\" sourcestartlinenumber=\"1\">A relationship between two elements.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.RelationshipStyle.yml",
+      "source_relative_path": "api/C4.Net.RelationshipStyle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.RelationshipStyle.html"
+          "relative_path": "api/C4.Net.RelationshipStyle.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.RelationshipStyle",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.RelationshipStyle.yml\" sourcestartlinenumber=\"1\">A definition of a relationship style.</p>\n"
+      "Title": "C4.Net.RelationshipStyle",
+      "Summary": "<p sourcefile=\"api/C4.Net.RelationshipStyle.yml\" sourcestartlinenumber=\"1\">A definition of a relationship style.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.RelationshipView.yml",
+      "source_relative_path": "api/C4.Net.RelationshipView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.RelationshipView.html"
+          "relative_path": "api/C4.Net.RelationshipView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.RelationshipView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.RelationshipView.yml\" sourcestartlinenumber=\"1\">An instance of a model relationship in a View.</p>\n"
+      "Title": "C4.Net.RelationshipView",
+      "Summary": "<p sourcefile=\"api/C4.Net.RelationshipView.yml\" sourcestartlinenumber=\"1\">An instance of a model relationship in a View.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer.yml",
+      "source_relative_path": "api/C4.Net.Renderer.SvgWorkspaceRenderer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer.html"
+          "relative_path": "api/C4.Net.Renderer.SvgWorkspaceRenderer.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer.yml\" sourcestartlinenumber=\"1\">Renders the views in a workspace as standalone SVG documents.</p>\n"
+      "Title": "C4.Net.Renderer.SvgWorkspaceRenderer",
+      "Summary": "<p sourcefile=\"api/C4.Net.Renderer.SvgWorkspaceRenderer.yml\" sourcestartlinenumber=\"1\">Renders the views in a workspace as standalone SVG documents.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Renderer.yml",
+      "source_relative_path": "api/C4.Net.Renderer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Renderer.html"
+          "relative_path": "api/C4.Net.Renderer.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Renderer",
+      "Title": "C4.Net.Renderer",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Routing.yml",
+      "source_relative_path": "api/C4.Net.Routing.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Routing.html"
+          "relative_path": "api/C4.Net.Routing.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Routing",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Routing.yml\" sourcestartlinenumber=\"1\">Defines the supported routing styles for relationship lines.</p>\n"
+      "Title": "C4.Net.Routing",
+      "Summary": "<p sourcefile=\"api/C4.Net.Routing.yml\" sourcestartlinenumber=\"1\">Defines the supported routing styles for relationship lines.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.SequentialIntegerIdGeneratorStrategy.yml",
+      "source_relative_path": "api/C4.Net.SequentialIntegerIdGeneratorStrategy.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.SequentialIntegerIdGeneratorStrategy.html"
+          "relative_path": "api/C4.Net.SequentialIntegerIdGeneratorStrategy.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.SequentialIntegerIdGeneratorStrategy",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.SequentialIntegerIdGeneratorStrategy.yml\" sourcestartlinenumber=\"1\">An ID generator that simply uses a sequential number when generating IDs for model elements and relationships.\nThis is the default ID generator.</p>\n"
+      "Title": "C4.Net.SequentialIntegerIdGeneratorStrategy",
+      "Summary": "<p sourcefile=\"api/C4.Net.SequentialIntegerIdGeneratorStrategy.yml\" sourcestartlinenumber=\"1\">An ID generator that simply uses a sequential number when generating IDs for model elements and relationships.\nThis is the default ID generator.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Shape.yml",
+      "source_relative_path": "api/C4.Net.Shape.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Shape.html"
+          "relative_path": "api/C4.Net.Shape.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Shape",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Shape.yml\" sourcestartlinenumber=\"1\">Defines the supported element shapes available to renderers.</p>\n"
+      "Title": "C4.Net.Shape",
+      "Summary": "<p sourcefile=\"api/C4.Net.Shape.yml\" sourcestartlinenumber=\"1\">Defines the supported element shapes available to renderers.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.SoftwareSystem.yml",
+      "source_relative_path": "api/C4.Net.SoftwareSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.SoftwareSystem.html"
+          "relative_path": "api/C4.Net.SoftwareSystem.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.SoftwareSystem",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.SoftwareSystem.yml\" sourcestartlinenumber=\"1\">A software system.</p>\n"
+      "Title": "C4.Net.SoftwareSystem",
+      "Summary": "<p sourcefile=\"api/C4.Net.SoftwareSystem.yml\" sourcestartlinenumber=\"1\">A software system.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.SoftwareSystemInstance.yml",
+      "source_relative_path": "api/C4.Net.SoftwareSystemInstance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.SoftwareSystemInstance.html"
+          "relative_path": "api/C4.Net.SoftwareSystemInstance.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.SoftwareSystemInstance",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.SoftwareSystemInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a Software System, which can be added to a DeploymentNode.</p>\n"
+      "Title": "C4.Net.SoftwareSystemInstance",
+      "Summary": "<p sourcefile=\"api/C4.Net.SoftwareSystemInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a Software System, which can be added to a DeploymentNode.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.StaticStructureElement.yml",
+      "source_relative_path": "api/C4.Net.StaticStructureElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.StaticStructureElement.html"
+          "relative_path": "api/C4.Net.StaticStructureElement.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.StaticStructureElement",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.StaticStructureElement.yml\" sourcestartlinenumber=\"1\">This is the superclass for model elements that describe the static structure\nof a software system, namely Person, SoftwareSystem, Container and Component.</p>\n"
+      "Title": "C4.Net.StaticStructureElement",
+      "Summary": "<p sourcefile=\"api/C4.Net.StaticStructureElement.yml\" sourcestartlinenumber=\"1\">This is the superclass for model elements that describe the static structure\nof a software system, namely Person, SoftwareSystem, Container and Component.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.StaticStructureElementInstance.yml",
+      "source_relative_path": "api/C4.Net.StaticStructureElementInstance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.StaticStructureElementInstance.html"
+          "relative_path": "api/C4.Net.StaticStructureElementInstance.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.StaticStructureElementInstance",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.StaticStructureElementInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a SoftwareSystem or a Container, which can be added to a DeploymentNode.</p>\n"
+      "Title": "C4.Net.StaticStructureElementInstance",
+      "Summary": "<p sourcefile=\"api/C4.Net.StaticStructureElementInstance.yml\" sourcestartlinenumber=\"1\">Represents a deployment instance of a SoftwareSystem or a Container, which can be added to a DeploymentNode.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.StaticView.yml",
+      "source_relative_path": "api/C4.Net.StaticView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.StaticView.html"
+          "relative_path": "api/C4.Net.StaticView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.StaticView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.StaticView.yml\" sourcestartlinenumber=\"1\">Serves as the base type for views that render a static structural slice of the model.</p>\n"
+      "Title": "C4.Net.StaticView",
+      "Summary": "<p sourcefile=\"api/C4.Net.StaticView.yml\" sourcestartlinenumber=\"1\">Serves as the base type for views that render a static structural slice of the model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Styles.yml",
+      "source_relative_path": "api/C4.Net.Styles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Styles.html"
+          "relative_path": "api/C4.Net.Styles.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Styles",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Styles.yml\" sourcestartlinenumber=\"1\">The styles associated with this set of views.</p>\n"
+      "Title": "C4.Net.Styles",
+      "Summary": "<p sourcefile=\"api/C4.Net.Styles.yml\" sourcestartlinenumber=\"1\">The styles associated with this set of views.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.SystemContextView.yml",
+      "source_relative_path": "api/C4.Net.SystemContextView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.SystemContextView.html"
+          "relative_path": "api/C4.Net.SystemContextView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.SystemContextView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.SystemContextView.yml\" sourcestartlinenumber=\"1\">A system context view.</p>\n"
+      "Title": "C4.Net.SystemContextView",
+      "Summary": "<p sourcefile=\"api/C4.Net.SystemContextView.yml\" sourcestartlinenumber=\"1\">A system context view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.SystemLandscapeView.yml",
+      "source_relative_path": "api/C4.Net.SystemLandscapeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.SystemLandscapeView.html"
+          "relative_path": "api/C4.Net.SystemLandscapeView.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.SystemLandscapeView",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.SystemLandscapeView.yml\" sourcestartlinenumber=\"1\">Represents an System Landscape view that sits above the C4 model. This is the &quot;big picture&quot; view,\nshowing the software systems and people in an given environment.\nThe permitted elements in this view are software systems and people.</p>\n"
+      "Title": "C4.Net.SystemLandscapeView",
+      "Summary": "<p sourcefile=\"api/C4.Net.SystemLandscapeView.yml\" sourcestartlinenumber=\"1\">Represents an System Landscape view that sits above the C4 model. This is the &quot;big picture&quot; view,\nshowing the software systems and people in an given environment.\nThe permitted elements in this view are software systems and people.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Tags.yml",
+      "source_relative_path": "api/C4.Net.Tags.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Tags.html"
+          "relative_path": "api/C4.Net.Tags.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Tags",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Tags.yml\" sourcestartlinenumber=\"1\">Defines the built-in tags applied to elements and relationships.</p>\n"
+      "Title": "C4.Net.Tags",
+      "Summary": "<p sourcefile=\"api/C4.Net.Tags.yml\" sourcestartlinenumber=\"1\">Defines the built-in tags applied to elements and relationships.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Util.ImageUtils.yml",
+      "source_relative_path": "api/C4.Net.Util.ImageUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Util.ImageUtils.html"
+          "relative_path": "api/C4.Net.Util.ImageUtils.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Util.ImageUtils",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Util.ImageUtils.yml\" sourcestartlinenumber=\"1\">Provides helpers for reading supported documentation image files.</p>\n"
+      "Title": "C4.Net.Util.ImageUtils",
+      "Summary": "<p sourcefile=\"api/C4.Net.Util.ImageUtils.yml\" sourcestartlinenumber=\"1\">Provides helpers for reading supported documentation image files.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Util.Url.yml",
+      "source_relative_path": "api/C4.Net.Util.Url.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Util.Url.html"
+          "relative_path": "api/C4.Net.Util.Url.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Util.Url",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Util.Url.yml\" sourcestartlinenumber=\"1\">Provides helpers for validating URL strings.</p>\n"
+      "Title": "C4.Net.Util.Url",
+      "Summary": "<p sourcefile=\"api/C4.Net.Util.Url.yml\" sourcestartlinenumber=\"1\">Provides helpers for validating URL strings.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Util.yml",
+      "source_relative_path": "api/C4.Net.Util.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Util.html"
+          "relative_path": "api/C4.Net.Util.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Util",
+      "Title": "C4.Net.Util",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Vertex.yml",
+      "source_relative_path": "api/C4.Net.Vertex.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Vertex.html"
+          "relative_path": "api/C4.Net.Vertex.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Vertex",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Vertex.yml\" sourcestartlinenumber=\"1\">Represents the X and Y coordinate of a bend in a relationship line.</p>\n"
+      "Title": "C4.Net.Vertex",
+      "Summary": "<p sourcefile=\"api/C4.Net.Vertex.yml\" sourcestartlinenumber=\"1\">Represents the X and Y coordinate of a bend in a relationship line.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.View.yml",
+      "source_relative_path": "api/C4.Net.View.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.View.html"
+          "relative_path": "api/C4.Net.View.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.View",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.View.yml\" sourcestartlinenumber=\"1\">Defines the shared metadata, elements, and relationships for a rendered architecture view.</p>\n"
+      "Title": "C4.Net.View",
+      "Summary": "<p sourcefile=\"api/C4.Net.View.yml\" sourcestartlinenumber=\"1\">Defines the shared metadata, elements, and relationships for a rendered architecture view.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ViewConfiguration.yml",
+      "source_relative_path": "api/C4.Net.ViewConfiguration.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ViewConfiguration.html"
+          "relative_path": "api/C4.Net.ViewConfiguration.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ViewConfiguration",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ViewConfiguration.yml\" sourcestartlinenumber=\"1\">The configuration associated with a set of views.</p>\n"
+      "Title": "C4.Net.ViewConfiguration",
+      "Summary": "<p sourcefile=\"api/C4.Net.ViewConfiguration.yml\" sourcestartlinenumber=\"1\">The configuration associated with a set of views.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ViewSet.yml",
+      "source_relative_path": "api/C4.Net.ViewSet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ViewSet.html"
+          "relative_path": "api/C4.Net.ViewSet.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ViewSet",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ViewSet.yml\" sourcestartlinenumber=\"1\">The set of views onto a software architecture model.</p>\n"
+      "Title": "C4.Net.ViewSet",
+      "Summary": "<p sourcefile=\"api/C4.Net.ViewSet.yml\" sourcestartlinenumber=\"1\">The set of views onto a software architecture model.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.ViewSortOrder.yml",
+      "source_relative_path": "api/C4.Net.ViewSortOrder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.ViewSortOrder.html"
+          "relative_path": "api/C4.Net.ViewSortOrder.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.ViewSortOrder",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.ViewSortOrder.yml\" sourcestartlinenumber=\"1\">Controls how a view set orders views when presented to consumers.</p>\n"
+      "Title": "C4.Net.ViewSortOrder",
+      "Summary": "<p sourcefile=\"api/C4.Net.ViewSortOrder.yml\" sourcestartlinenumber=\"1\">Controls how a view set orders views when presented to consumers.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.Workspace.yml",
+      "source_relative_path": "api/C4.Net.Workspace.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.Workspace.html"
+          "relative_path": "api/C4.Net.Workspace.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.Workspace",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.Workspace.yml\" sourcestartlinenumber=\"1\">Represents a Structurizr workspace, which is a wrapper for a software architecture model and the associated views.</p>\n"
+      "Title": "C4.Net.Workspace",
+      "Summary": "<p sourcefile=\"api/C4.Net.Workspace.yml\" sourcestartlinenumber=\"1\">Represents a Structurizr workspace, which is a wrapper for a software architecture model and the associated views.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.WorkspaceUtils.yml",
+      "source_relative_path": "api/C4.Net.WorkspaceUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.WorkspaceUtils.html"
+          "relative_path": "api/C4.Net.WorkspaceUtils.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp.WorkspaceUtils",
-      "Summary": "<p sourcefile=\"api/StacyClouds.C4Sharp.WorkspaceUtils.yml\" sourcestartlinenumber=\"1\">Provides convenience helpers for loading, saving, and printing workspace JSON.</p>\n"
+      "Title": "C4.Net.WorkspaceUtils",
+      "Summary": "<p sourcefile=\"api/C4.Net.WorkspaceUtils.yml\" sourcestartlinenumber=\"1\">Provides convenience helpers for loading, saving, and printing workspace JSON.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StacyClouds.C4Sharp.yml",
+      "source_relative_path": "api/C4.Net.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StacyClouds.C4Sharp.html"
+          "relative_path": "api/C4.Net.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "StacyClouds.C4Sharp",
+      "Title": "C4.Net",
       "Summary": null
     },
     {

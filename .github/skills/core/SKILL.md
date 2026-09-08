@@ -1,8 +1,8 @@
 ---
 name: core
-description: Build and evolve C4 workspaces, models, and views with StacyClouds.C4Sharp.Core.
+description: Build and evolve C4 workspaces, models, and views with C4.Net.Core.
 license: MIT
-compatibility: C4Sharp.NET repository context.
+compatibility: C4.Net repository context.
 metadata:
   author: StacyClouds
   version: "1.0"
@@ -13,7 +13,7 @@ Use this skill for Core package work.
 ## Install
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Core
+dotnet add package C4.Net.Core
 ```
 
 ## Scope
@@ -32,7 +32,7 @@ dotnet add package StacyClouds.C4Sharp.Core
 
 ## API correctness protocol
 
-- Verify public type and method names against `StacyClouds.C4Sharp.Core` source and tests before returning snippets.
+- Verify public type and method names against `C4.Net.Core` source and tests before returning snippets.
 - Prefer examples aligned with `docs/getting-started.md` and view-specific docs.
 - If an API is uncertain, investigate first and return a verified workflow instead of guessing.
 
@@ -42,8 +42,8 @@ dotnet add package StacyClouds.C4Sharp.Core
 - `docs/system-context-diagram.md`
 - `docs/container-diagram.md`
 - `docs/component-diagram.md`
-- `StacyClouds.C4Sharp.Core/`
-- `StacyClouds.C4Sharp.Core.Tests/`
+- `C4.Net.Core/`
+- `C4.Net.Core.Tests/`
 
 ## Guidance flow
 

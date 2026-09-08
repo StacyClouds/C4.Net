@@ -1,6 +1,6 @@
-# C4Sharp.NET Roadmap
+# C4.Net Roadmap
 
-This document outlines planned improvements and enhancements for C4Sharp.NET.
+This document outlines planned improvements and enhancements for C4.Net.
 
 ## Completed ✅
 
@@ -10,7 +10,7 @@ This document outlines planned improvements and enhancements for C4Sharp.NET.
 - ✅ Updated all NuGet package dependencies to latest versions
 - ✅ Updated test frameworks (xUnit, Microsoft.NET.Test.Sdk)
 - ✅ Addressed security vulnerability in Newtonsoft.Json (upgraded to 13.0.3)
-- ✅ Rebranded from Structurizr to C4Sharp.NET
+- ✅ Rebranded from Structurizr to C4.Net
 - ✅ Updated NuGet package metadata (owner: StacyClouds)
 - ✅ Created project website with GitHub Pages
 - ✅ Updated README with modern branding and documentation
@@ -37,7 +37,7 @@ Migrate from Newtonsoft.Json to System.Text.Json for better performance and .NET
 Compare against the latest C4 DSL specification and identify missing features:
 - Review [Structurizr DSL](https://docs.structurizr.com/dsl) latest features
 - Read [C4 DSL Gap Analysis](docs/C4-DSL-GAP-ANALYSIS.md) for the current support matrix
-- Identify features present in DSL but missing in C4Sharp.NET
+- Identify features present in DSL but missing in C4.Net
 - Prioritize features based on user needs
 - Create implementation plan
 
@@ -46,7 +46,7 @@ Current phased focus from the analysis:
 2. DSL directives and composition: includes/scripts/expressions/document composition
 3. Ecosystem parity: groups, archetypes/patterns, workspace extension, plugins, ADR handling
 
-Status: the structured DSL foundation import boundary is now implemented in `StacyClouds.C4Sharp.Dsl`.
+Status: the structured DSL foundation import boundary is now implemented in `C4.Net.Dsl`.
 
 ### Medium Priority
 
@@ -91,7 +91,7 @@ Status: the structured DSL foundation import boundary is now implemented in `Sta
 
 ## Feature Requests
 
-Feature requests can be submitted via [GitHub Issues](https://github.com/StacyClouds/c4sharp.net/issues).
+Feature requests can be submitted via [GitHub Issues](https://github.com/StacyClouds/C4.Net/issues).
 
 When submitting a feature request, please include:
 - Clear description of the feature
@@ -109,7 +109,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - Multi-framework support (.NET 8, 9, 10, 11)
 - Updated dependencies
 - Security fixes
-- Rebranding to C4Sharp.NET
+- Rebranding to C4.Net
 
 ### 1.1.1 (Previous)
 - Legacy Structurizr for .NET release

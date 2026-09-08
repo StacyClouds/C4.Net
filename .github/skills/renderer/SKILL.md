@@ -1,8 +1,8 @@
 ---
 name: renderer
-description: Render C4 views to SVG with StacyClouds.C4Sharp.Renderer.
+description: Render C4 views to SVG with C4.Net.Renderer.
 license: MIT
-compatibility: C4Sharp.NET repository context.
+compatibility: C4.Net repository context.
 metadata:
   author: StacyClouds
   version: "1.0"
@@ -13,7 +13,7 @@ Use this skill for rendering architecture diagrams.
 ## Install
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Renderer
+dotnet add package C4.Net.Renderer
 ```
 
 ## Scope
@@ -24,7 +24,7 @@ dotnet add package StacyClouds.C4Sharp.Renderer
 
 ## Prerequisite
 
-The views to render are normally created with `StacyClouds.C4Sharp.Core`.
+The views to render are normally created with `C4.Net.Core`.
 
 ## Guidance flow
 
@@ -48,8 +48,8 @@ The views to render are normally created with `StacyClouds.C4Sharp.Core`.
 ## Authoritative references
 
 - `docs/svg-rendering.md`
-- `StacyClouds.C4Sharp.Renderer/`
-- `StacyClouds.C4Sharp.Renderer.Tests/`
+- `C4.Net.Renderer/`
+- `C4.Net.Renderer.Tests/`
 
 ## Expected output
 

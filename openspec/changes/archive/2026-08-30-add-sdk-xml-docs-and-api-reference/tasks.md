@@ -1,15 +1,15 @@
 ## 1. Setup
 
-- [x] 1.1 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `StacyClouds.C4Sharp.Core/StacyClouds.C4Sharp.Core.csproj`.
-- [x] 1.2 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `StacyClouds.C4Sharp.Client/StacyClouds.C4Sharp.Client.csproj`.
-- [x] 1.3 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `StacyClouds.C4Sharp.Renderer/StacyClouds.C4Sharp.Renderer.csproj`.
-- [x] 1.4 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `StacyClouds.C4Sharp.Editor/StacyClouds.C4Sharp.Editor.csproj`.
+- [x] 1.1 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `C4.Net.Core/C4.Net.Core.csproj`.
+- [x] 1.2 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `C4.Net.Client/C4.Net.Client.csproj`.
+- [x] 1.3 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `C4.Net.Renderer/C4.Net.Renderer.csproj`.
+- [x] 1.4 Enable `<GenerateDocumentationFile>true</GenerateDocumentationFile>` in `C4.Net.Editor/C4.Net.Editor.csproj`.
 - [x] 1.5 Add `docfx/` to `.gitignore` to exclude the DocFX working directory from source control.
 - [x] 1.6 Install DocFX as a .NET tool and add it to `dotnet-tools.json` (or document the required version in `CONTRIBUTING.md`).
 
 ## 2. XML Doc Coverage — Core
 
-- [x] 2.1 Enumerate all public types and members in `StacyClouds.C4Sharp.Core` that are missing `<summary>` comments (`dotnet build -warnaserror:CS1591`).
+- [x] 2.1 Enumerate all public types and members in `C4.Net.Core` that are missing `<summary>` comments (`dotnet build -warnaserror:CS1591`).
 - [x] 2.2 Add XML doc comments to all public types: model elements (`Person`, `SoftwareSystem`, `Container`, `Component`, `DeploymentNode`, etc.), view types, configuration, styles, and DSL types.
 - [x] 2.3 Add XML doc comments to all public members: constructors, properties, methods, extension methods, enums, and constants.
 - [x] 2.4 Add `<param>`, `<returns>`, and `<exception>` tags to all public non-void methods with parameters.
@@ -19,7 +19,7 @@
 
 ## 3. XML Doc Coverage — Client
 
-- [x] 3.1 Enumerate all public types and members in `StacyClouds.C4Sharp.Client` that are missing `<summary>` comments.
+- [x] 3.1 Enumerate all public types and members in `C4.Net.Client` that are missing `<summary>` comments.
 - [x] 3.2 Add XML doc comments to all public types and members (API client, encryption, serialisation, I/O helpers).
 - [x] 3.3 Add `<param>`, `<returns>`, and `<exception>` tags to all public non-void methods with parameters.
 - [x] 3.4 Add `<summary>` to meaningful `internal` helpers in Client.
@@ -27,14 +27,14 @@
 
 ## 4. XML Doc Coverage — Renderer
 
-- [x] 4.1 Enumerate all public types and members in `StacyClouds.C4Sharp.Renderer` that are missing `<summary>` comments.
+- [x] 4.1 Enumerate all public types and members in `C4.Net.Renderer` that are missing `<summary>` comments.
 - [x] 4.2 Add XML doc comments to all public types and members.
 - [x] 4.3 Add `<param>`, `<returns>`, and `<exception>` tags to all public non-void methods with parameters.
 - [x] 4.4 Build Renderer and confirm zero CS1591 warnings.
 
 ## 5. XML Doc Coverage — Editor
 
-- [x] 5.1 Enumerate all public types and members in `StacyClouds.C4Sharp.Editor` that are missing `<summary>` comments.
+- [x] 5.1 Enumerate all public types and members in `C4.Net.Editor` that are missing `<summary>` comments.
 - [x] 5.2 Add XML doc comments to all public types and members.
 - [x] 5.3 Add `<param>`, `<returns>`, and `<exception>` tags to all public non-void methods with parameters.
 - [x] 5.4 Build Editor and confirm zero CS1591 warnings.
@@ -54,9 +54,9 @@
 
 ## 8. Build validation
 
-- [x] 8.1 Run `dotnet build StacyClouds.C4Sharp.slnx` and confirm no new errors or warnings.
-- [x] 8.2 Run `dotnet test StacyClouds.C4Sharp.slnx` and confirm all tests pass.
-- [ ] 8.3 Run `dotnet build StacyClouds.C4Sharp.slnx -warnaserror:CS1591` and confirm zero missing-doc warnings across all packages.
+- [x] 8.1 Run `dotnet build C4.Net.slnx` and confirm no new errors or warnings.
+- [x] 8.2 Run `dotnet test C4.Net.slnx` and confirm all tests pass.
+- [ ] 8.3 Run `dotnet build C4.Net.slnx -warnaserror:CS1591` and confirm zero missing-doc warnings across all packages.
 
 ## 9. Release flow automation
 

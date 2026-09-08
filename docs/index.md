@@ -1,14 +1,14 @@
 ---
-title: C4Sharp.NET
+title: C4.Net
 ---
 
-# C4Sharp.NET
+# C4.Net
 
-A simple documentation website for the C4Sharp.NET codebase and NuGet packages.
+A simple documentation website for the C4.Net codebase and NuGet packages.
 
 ## What this codebase provides
 
-C4Sharp.NET is a multi-package .NET toolkit for:
+C4.Net is a multi-package .NET toolkit for:
 
 - building C4 architecture workspaces in code,
 - publishing and retrieving workspaces through Structurizr-compatible APIs,
@@ -31,5 +31,5 @@ C4Sharp.NET is a multi-package .NET toolkit for:
 ## Project links
 
 - [NuGet packages](https://www.nuget.org/profiles/StacyClouds)
-- [GitHub repository](https://github.com/StacyClouds/c4sharp.net)
+- [GitHub repository](https://github.com/StacyClouds/C4.Net)
 - [C4 Model background](https://c4model.com)

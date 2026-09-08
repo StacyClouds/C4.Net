@@ -4,16 +4,16 @@ title: Core package guide
 
 # Core package guide
 
-Install `StacyClouds.C4Sharp.Core` when you want to create or modify workspaces in .NET code.
+Install `C4.Net.Core` when you want to create or modify workspaces in .NET code.
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Core
+dotnet add package C4.Net.Core
 ```
 
 ## Namespace
 
 ```csharp
-using StacyClouds.C4Sharp;
+using C4.Net;
 ```
 
 ## Create a workspace
@@ -60,8 +60,8 @@ styles.Add(new ElementStyle(Tags.Person) { Background = "#08427b", Color = "#fff
 
 ## Next steps
 
-- Add `StacyClouds.C4Sharp.Client` to publish or download workspaces.
-- Add `StacyClouds.C4Sharp.Renderer` to generate SVG output locally.
-- Add `StacyClouds.C4Sharp.Editor` to edit rendered layouts in a Blazor host.
+- Add `C4.Net.Client` to publish or download workspaces.
+- Add `C4.Net.Renderer` to generate SVG output locally.
+- Add `C4.Net.Editor` to edit rendered layouts in a Blazor host.
 
 For C4 notation guidance, use the official [C4 Model website](https://c4model.com).

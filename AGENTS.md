@@ -2,21 +2,21 @@
 
 ## Overview
 
-C4Sharp.NET is a multi-targeted .NET library for creating C4 architecture
+C4.Net is a multi-targeted .NET library for creating C4 architecture
 models, diagrams, and Structurizr-compatible workspaces. The actively
-maintained solution is `StacyClouds.C4Sharp.slnx`; the `safe/` directory is a
+maintained solution is `C4.Net.slnx`; the `safe/` directory is a
 reference copy of the upstream Structurizr code and should not be changed
 unless a task explicitly requires it.
 
 ## Repository layout
 
-- `StacyClouds.C4Sharp.Core/` — model, views, configuration, documentation,
+- `C4.Net.Core/` — model, views, configuration, documentation,
   and DSL foundation code.
-- `StacyClouds.C4Sharp.Client/` — Structurizr API client, encryption, I/O,
+- `C4.Net.Client/` — Structurizr API client, encryption, I/O,
   and utilities.
-- `StacyClouds.C4Sharp.Core.Tests/` and `StacyClouds.C4Sharp.Client.Tests/`
+- `C4.Net.Core.Tests/` and `C4.Net.Client.Tests/`
   — xUnit/Shouldly test projects that mirror production areas.
-- `StacyClouds.C4Sharp.Examples/` — executable usage examples.
+- `C4.Net.Examples/` — executable usage examples.
 - `docs/` — user-facing documentation.
 - `openspec/` — OpenSpec change proposals and specifications.
 
@@ -40,24 +40,24 @@ unless a task explicitly requires it.
 Run the smallest relevant validation first:
 
 ```bash
-dotnet test StacyClouds.C4Sharp.Core.Tests/StacyClouds.C4Sharp.Core.Tests.csproj
-dotnet test StacyClouds.C4Sharp.Client.Tests/StacyClouds.C4Sharp.Client.Tests.csproj
+dotnet test C4.Net.Core.Tests/C4.Net.Core.Tests.csproj
+dotnet test C4.Net.Client.Tests/C4.Net.Client.Tests.csproj
 ```
 
 Before handing off cross-project changes, validate the maintained solution:
 
 ```bash
-dotnet restore StacyClouds.C4Sharp.slnx
-dotnet build StacyClouds.C4Sharp.slnx
-dotnet test StacyClouds.C4Sharp.slnx
+dotnet restore C4.Net.slnx
+dotnet build C4.Net.slnx
+dotnet test C4.Net.slnx
 ```
 
 For .NET 11-specific work, use the commands below:
 
 ```bash
-dotnet restore StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
-dotnet build StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
-dotnet test StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
+dotnet restore C4.Net.slnx -p:TargetFramework=net11.0
+dotnet build C4.Net.slnx -p:TargetFramework=net11.0
+dotnet test C4.Net.slnx -p:TargetFramework=net11.0
 ```
 
 ## Changes and documentation

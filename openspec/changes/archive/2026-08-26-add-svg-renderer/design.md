@@ -31,7 +31,7 @@ alter the workspace while rendering it.
 
 ### Separate renderer library
 
-Add a multi-targeted `StacyClouds.C4Sharp.Renderer` library that references
+Add a multi-targeted `C4.Net.Renderer` library that references
 Core, plus a renderer test project. The public entry point will render a
 workspace to a collection keyed by view key, with each value containing a
 complete SVG document. Keeping this separate avoids adding rendering concerns

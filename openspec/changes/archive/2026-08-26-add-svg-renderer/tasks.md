@@ -8,7 +8,7 @@
 ## 2. Renderer project setup
 
 - [x] 2.1 Add failing renderer API tests that define workspace rendering results keyed by unique view keys.
-- [x] 2.2 Create the multi-targeted `StacyClouds.C4Sharp.Renderer` class library and its test project, and add both to the maintained solution.
+- [x] 2.2 Create the multi-targeted `C4.Net.Renderer` class library and its test project, and add both to the maintained solution.
 - [x] 2.3 Define the public workspace rendering API and result model for SVG documents keyed by unique view keys.
 - [x] 2.4 Run the renderer API tests and make this group green before implementing view normalization.
 

@@ -10,18 +10,18 @@ This documentation set is organised around the published NuGet packages.
 
 | Package | Depends on | Use it for | Guide |
 |---|---|---|---|
-| `StacyClouds.C4Sharp.Core` | - | Creating workspaces, models, views, and styles in code | [Core package guide](getting-started.md) |
-| `StacyClouds.C4Sharp.Client` | `StacyClouds.C4Sharp.Core` | Reading and writing workspaces through the Structurizr-compatible API | [Client package guide](api-client.md) |
-| `StacyClouds.C4Sharp.Renderer` | `StacyClouds.C4Sharp.Core` | Rendering workspace views to standalone SVG documents | [Renderer package guide](svg-rendering.md) |
-| `StacyClouds.C4Sharp.Editor` | `StacyClouds.C4Sharp.Renderer` | Embedding an interactive Blazor editor for workspace layouts | [Editor package guide](razor-svg-editor.md) |
+| `C4.Net.Core` | - | Creating workspaces, models, views, and styles in code | [Core package guide](getting-started.md) |
+| `C4.Net.Client` | `C4.Net.Core` | Reading and writing workspaces through the Structurizr-compatible API | [Client package guide](api-client.md) |
+| `C4.Net.Renderer` | `C4.Net.Core` | Rendering workspace views to standalone SVG documents | [Renderer package guide](svg-rendering.md) |
+| `C4.Net.Editor` | `C4.Net.Renderer` | Embedding an interactive Blazor editor for workspace layouts | [Editor package guide](razor-svg-editor.md) |
 
 ## Install packages
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Core
-dotnet add package StacyClouds.C4Sharp.Client
-dotnet add package StacyClouds.C4Sharp.Renderer
-dotnet add package StacyClouds.C4Sharp.Editor
+dotnet add package C4.Net.Core
+dotnet add package C4.Net.Client
+dotnet add package C4.Net.Renderer
+dotnet add package C4.Net.Editor
 ```
 
 Install only the packages you need:
@@ -41,7 +41,7 @@ Install only the packages you need:
 
 ## Source locations
 
-- Core: `StacyClouds.C4Sharp.Core/`
-- Client: `StacyClouds.C4Sharp.Client/`
-- Renderer: `StacyClouds.C4Sharp.Renderer/`
-- Editor: `StacyClouds.C4Sharp.Editor/`
+- Core: `C4.Net.Core/`
+- Client: `C4.Net.Client/`
+- Renderer: `C4.Net.Renderer/`
+- Editor: `C4.Net.Editor/`

@@ -1,7 +1,7 @@
 ## ADDED Requirements
 
 ### Requirement: Project targets include .NET 11
-The repository MUST include `net11.0` in the `TargetFrameworks` list for maintained `StacyClouds.C4Sharp` library, test, and example projects that are currently part of the supported runtime matrix.
+The repository MUST include `net11.0` in the `TargetFrameworks` list for maintained `C4.Net` library, test, and example projects that are currently part of the supported runtime matrix.
 
 #### Scenario: Multi-target project declarations include net11.0
 - **WHEN** maintainers inspect project files that currently target `net8.0;net9.0;net10.0`
@@ -15,11 +15,11 @@ The repository SHALL define and run validation commands that confirm restore/bui
 - **THEN** restore/build/test complete successfully for the targeted solutions or projects without net11 target-resolution errors
 
 ### Requirement: Encryption key derivation uses non-obsolete PBKDF2 APIs
-The `StacyClouds.C4Sharp.Client` encryption implementation MUST avoid obsolete `Rfc2898DeriveBytes` constructor usage and use supported PBKDF2 APIs compatible with current target frameworks.
+The `C4.Net.Client` encryption implementation MUST avoid obsolete `Rfc2898DeriveBytes` constructor usage and use supported PBKDF2 APIs compatible with current target frameworks.
 
 #### Scenario: Encryption code no longer emits PBKDF2 obsolescence warnings for supported target frameworks
 - **WHEN** maintainers build the C4Sharp client project across supported target frameworks
-- **THEN** build output does not include PBKDF2 constructor obsolescence warnings from `StacyClouds.C4Sharp.Client/Encryption/AesEncryptionStrategy.cs`
+- **THEN** build output does not include PBKDF2 constructor obsolescence warnings from `C4.Net.Client/Encryption/AesEncryptionStrategy.cs`
 
 ### Requirement: Public support matrix documentation includes .NET 11
 User and contributor documentation MUST state .NET 11 support consistently wherever supported SDK/runtime versions are listed.

@@ -2,7 +2,7 @@
 title: Release 0.9.8
 ---
 
-# C4Sharp.NET 0.9.8 — Release Notes
+# C4.Net 0.9.8 — Release Notes
 
 Released: 2026-09-06
 

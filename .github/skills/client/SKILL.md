@@ -1,8 +1,8 @@
 ---
 name: client
-description: Use StacyClouds.C4Sharp.Client to publish, retrieve, and secure Structurizr workspaces.
+description: Use C4.Net.Client to publish, retrieve, and secure Structurizr workspaces.
 license: MIT
-compatibility: C4Sharp.NET repository context.
+compatibility: C4.Net repository context.
 metadata:
   author: StacyClouds
   version: "1.0"
@@ -13,7 +13,7 @@ Use this skill for Structurizr API client integration.
 ## Install
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Client
+dotnet add package C4.Net.Client
 ```
 
 ## Scope
@@ -24,7 +24,7 @@ dotnet add package StacyClouds.C4Sharp.Client
 
 ## Prerequisite
 
-The workspace is normally produced with `StacyClouds.C4Sharp.Core`.
+The workspace is normally produced with `C4.Net.Core`.
 
 ## Guidance flow
 
@@ -49,8 +49,8 @@ The workspace is normally produced with `StacyClouds.C4Sharp.Core`.
 
 - `docs/api-client.md`
 - `docs/client-side-encryption.md`
-- `StacyClouds.C4Sharp.Client/`
-- `StacyClouds.C4Sharp.Client.Tests/`
+- `C4.Net.Client/`
+- `C4.Net.Client.Tests/`
 
 ## Expected output
 

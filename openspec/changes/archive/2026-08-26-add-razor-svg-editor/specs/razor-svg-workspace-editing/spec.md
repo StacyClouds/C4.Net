@@ -1,10 +1,10 @@
 ## ADDED Requirements
 
 ### Requirement: Provide an optional Razor editor package
-The system SHALL provide `StacyClouds.C4Sharp.Editor` as a separately packable Razor class library targeting every framework supported by the renderer. The package SHALL depend on the renderer package and SHALL not require the renderer package to reference Razor or ASP.NET Core.
+The system SHALL provide `C4.Net.Editor` as a separately packable Razor class library targeting every framework supported by the renderer. The package SHALL depend on the renderer package and SHALL not require the renderer package to reference Razor or ASP.NET Core.
 
 #### Scenario: Consumer uses only the renderer package
-- **WHEN** an application references `StacyClouds.C4Sharp.Renderer` but not `StacyClouds.C4Sharp.Editor`
+- **WHEN** an application references `C4.Net.Renderer` but not `C4.Net.Editor`
 - **THEN** it can render workspace SVG documents without Razor component dependencies or editor static assets
 
 ### Requirement: Navigate workspace views

@@ -2,13 +2,13 @@
 name: facilitator-all-packages
 description: Facilitate package selection across Core, Client, Renderer, and Editor for diagram-as-code workflows.
 license: MIT
-compatibility: C4Sharp.NET repository context.
+compatibility: C4.Net repository context.
 metadata:
   author: StacyClouds
   version: "1.0"
 ---
 
-Use this skill when a developer needs guidance across all C4Sharp.NET packages.
+Use this skill when a developer needs guidance across all C4.Net packages.
 
 ## Goals
 
@@ -19,18 +19,18 @@ Use this skill when a developer needs guidance across all C4Sharp.NET packages.
 
 ## Package map
 
-- `StacyClouds.C4Sharp.Core`: model and view authoring primitives.
-- `StacyClouds.C4Sharp.Client`: Structurizr API integration and encryption.
-- `StacyClouds.C4Sharp.Renderer`: SVG rendering workflows.
-- `StacyClouds.C4Sharp.Editor`: editor-oriented integration surface.
+- `C4.Net.Core`: model and view authoring primitives.
+- `C4.Net.Client`: Structurizr API integration and encryption.
+- `C4.Net.Renderer`: SVG rendering workflows.
+- `C4.Net.Editor`: editor-oriented integration surface.
 
 ## Installation quick start
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Core
-dotnet add package StacyClouds.C4Sharp.Client
-dotnet add package StacyClouds.C4Sharp.Renderer
-dotnet add package StacyClouds.C4Sharp.Editor
+dotnet add package C4.Net.Core
+dotnet add package C4.Net.Client
+dotnet add package C4.Net.Renderer
+dotnet add package C4.Net.Editor
 ```
 
 Install the smallest set required for the scenario:

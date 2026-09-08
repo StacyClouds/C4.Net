@@ -2,9 +2,9 @@
 title: API Reference
 ---
 
-# C4Sharp.NET API Reference
+# C4.Net API Reference
 
-This section contains the full public API reference for all C4Sharp.NET packages,
+This section contains the full public API reference for all C4.Net packages,
 generated from XML documentation comments in the source code.
 
 ## Browse the reference

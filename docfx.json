@@ -6,10 +6,10 @@
         {
           "src": ".",
           "files": [
-            "StacyClouds.C4Sharp.Core/StacyClouds.C4Sharp.Core.csproj",
-            "StacyClouds.C4Sharp.Client/StacyClouds.C4Sharp.Client.csproj",
-            "StacyClouds.C4Sharp.Renderer/StacyClouds.C4Sharp.Renderer.csproj",
-            "StacyClouds.C4Sharp.Editor/StacyClouds.C4Sharp.Editor.csproj"
+            "C4.Net.Core/C4.Net.Core.csproj",
+            "C4.Net.Client/C4.Net.Client.csproj",
+            "C4.Net.Renderer/C4.Net.Renderer.csproj",
+            "C4.Net.Editor/C4.Net.Editor.csproj"
           ]
         }
       ],
@@ -36,8 +36,8 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "C4Sharp.NET",
-      "_appTitle": "C4Sharp.NET API Reference",
+      "_appName": "C4.Net",
+      "_appTitle": "C4.Net API Reference",
       "_enableSearch": true,
       "_disableAffix": false
     }

@@ -52,8 +52,8 @@
 ## 📊 Test Results
 
 ```
-✅ StacyClouds.C4Sharp.Core.Tests: 519 tests passed
-✅ StacyClouds.C4Sharp.Client.Tests: 37 tests passed
+✅ C4.Net.Core.Tests: 519 tests passed
+✅ C4.Net.Client.Tests: 37 tests passed
 ✅ Total: 556 tests passed on .NET 8, 9, 10, and 11
 ```
 
@@ -61,23 +61,23 @@
 
 ## 📦 NuGet Package Verification
 
-### StacyClouds.C4Sharp.Core Package
+### C4.Net.Core Package
 - ✅ Multi-targeting: net8.0, net9.0, net10.0, net11.0
 - ✅ Author: Stacy Cashmore
 - ✅ License: Apache-2.0 (expression)
 - ✅ Project URL: https://c4sharp.net
-- ✅ Repository: https://github.com/StacyClouds/c4sharp.net
+- ✅ Repository: https://github.com/StacyClouds/C4.Net
 - ✅ README included
 - ✅ Dependencies: Newtonsoft.Json 13.0.3
 
-### StacyClouds.C4Sharp.Client Package
+### C4.Net.Client Package
 - ✅ Multi-targeting: net8.0, net9.0, net10.0, net11.0
 - ✅ Author: Stacy Cashmore
 - ✅ License: Apache-2.0 (expression)
 - ✅ Project URL: https://c4sharp.net
-- ✅ Repository: https://github.com/StacyClouds/c4sharp.net
+- ✅ Repository: https://github.com/StacyClouds/C4.Net
 - ✅ README included
-- ✅ Project reference: StacyClouds.C4Sharp.Core
+- ✅ Project reference: C4.Net.Core
 
 ---
 

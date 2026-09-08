@@ -1,8 +1,8 @@
 ---
 name: editor
-description: Guide editor-oriented scenarios with StacyClouds.C4Sharp.Editor.
+description: Guide editor-oriented scenarios with C4.Net.Editor.
 license: MIT
-compatibility: C4Sharp.NET repository context.
+compatibility: C4.Net repository context.
 metadata:
   author: StacyClouds
   version: "1.0"
@@ -13,7 +13,7 @@ Use this skill for editor and interactive authoring scenarios.
 ## Install
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Editor
+dotnet add package C4.Net.Editor
 ```
 
 ## Scope
@@ -24,9 +24,9 @@ dotnet add package StacyClouds.C4Sharp.Editor
 
 ## Prerequisites
 
-- `StacyClouds.C4Sharp.Core` for workspace/model composition.
-- Optional `StacyClouds.C4Sharp.Renderer` for SVG previews.
-- Optional `StacyClouds.C4Sharp.Client` for publish/sync workflows.
+- `C4.Net.Core` for workspace/model composition.
+- Optional `C4.Net.Renderer` for SVG previews.
+- Optional `C4.Net.Client` for publish/sync workflows.
 
 ## Guidance flow
 
@@ -51,8 +51,8 @@ dotnet add package StacyClouds.C4Sharp.Editor
 ## Authoritative references
 
 - `docs/razor-svg-editor.md`
-- `StacyClouds.C4Sharp.Editor/`
-- `StacyClouds.C4Sharp.Editor.Tests/`
+- `C4.Net.Editor/`
+- `C4.Net.Editor.Tests/`
 
 ## Expected output
 

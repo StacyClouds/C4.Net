@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Update this property group for every regular release -->
+  <PropertyGroup>
+    <ReleaseNotes></ReleaseNotes>
+    <Version>1.1.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>The API client for publishing C4 models to the Structurizr cloud service and on-premises installation.</Description>
+    <PackageId>C4.Net.Client</PackageId>
+    <Authors>Structurizr Limited, Stacy Cashmore</Authors>
+    <Copyright>Copyright 2026</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://c4sharp.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StacyClouds/C4.Net</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0;net11.0</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\C4.Net.Core\C4.Net.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
