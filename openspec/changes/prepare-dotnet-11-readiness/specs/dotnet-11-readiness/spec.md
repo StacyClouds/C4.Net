@@ -18,7 +18,7 @@ The repository SHALL define and run validation commands that confirm restore/bui
 The `C4.Net.Client` encryption implementation MUST avoid obsolete `Rfc2898DeriveBytes` constructor usage and use supported PBKDF2 APIs compatible with current target frameworks.
 
 #### Scenario: Encryption code no longer emits PBKDF2 obsolescence warnings for supported target frameworks
-- **WHEN** maintainers build the C4Sharp client project across supported target frameworks
+- **WHEN** maintainers build the C4.Net client project across supported target frameworks
 - **THEN** build output does not include PBKDF2 constructor obsolescence warnings from `C4.Net.Client/Encryption/AesEncryptionStrategy.cs`
 
 ### Requirement: Public support matrix documentation includes .NET 11

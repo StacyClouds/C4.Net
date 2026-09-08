@@ -1,7 +1,7 @@
 ## ADDED Requirements
 
 ### Requirement: DSL gap analysis covers documented feature areas
-The repository MUST include a gap analysis that compares current C4Sharp.NET capabilities against the Structurizr DSL feature areas documented at docs.structurizr.com/dsl.
+The repository MUST include a gap analysis that compares current C4.Net capabilities against the Structurizr DSL feature areas documented at docs.structurizr.com/dsl.
 
 #### Scenario: Maintainer reviews the analysis document
 - **WHEN** a maintainer opens the gap analysis

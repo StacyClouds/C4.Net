@@ -1,6 +1,6 @@
 ## Context
 
-The maintained C4Sharp projects currently multi-target `net8.0;net9.0;net10.0` across library, tests, and examples. A .NET 11 SDK is available in the environment, but no C4Sharp project declares `net11.0`, so forced net11 builds fail due to missing assets targets. The C4Sharp client codebase also emits cryptography obsolescence warnings in `AesEncryptionStrategy` that represent likely forward-compatibility risk as frameworks evolve.
+The maintained C4.Net projects currently multi-target `net8.0;net9.0;net10.0` across library, tests, and examples. A .NET 11 SDK is available in the environment, but no C4.Net project declares `net11.0`, so forced net11 builds fail due to missing assets targets. The C4.Net client codebase also emits cryptography obsolescence warnings in `AesEncryptionStrategy` that represent likely forward-compatibility risk as frameworks evolve.
 
 ## Goals / Non-Goals
 

@@ -33,7 +33,7 @@ write_release_notes() {
 title: Release ${package_version}
 ---
 
-# C4Sharp.NET ${package_version} — Release Notes
+# C4.Net ${package_version} — Release Notes
 
 Released: ${release_date}
 

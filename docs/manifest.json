@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/workspace",
+  "source_base_path": "/home/runner/work/C4.Net/C4.Net",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1806,11 +1806,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""

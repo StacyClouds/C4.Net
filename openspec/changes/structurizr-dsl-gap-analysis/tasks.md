@@ -1,7 +1,7 @@
 ## 1. Research and inventory
 
 - [x] 1.1 Review the Structurizr DSL documentation sections and group them into feature areas for comparison.
-- [x] 1.2 Inventory current C4Sharp.NET support in core, client, examples, and docs for each feature area.
+- [x] 1.2 Inventory current C4.Net support in core, client, examples, and docs for each feature area.
 - [x] 1.3 Record evidence links/citations for supported, partial, and missing areas.
 
 ## 2. Gap analysis document

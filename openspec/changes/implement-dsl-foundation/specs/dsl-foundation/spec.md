@@ -1,7 +1,7 @@
 ## ADDED Requirements
 
 ### Requirement: DSL workspace import boundary
-The system MUST provide a DSL-shaped import boundary that can materialize workspace, model, and view structures into the existing C4Sharp.NET model.
+The system MUST provide a DSL-shaped import boundary that can materialize workspace, model, and view structures into the existing C4.Net model.
 
 #### Scenario: Import a workspace model
 - **WHEN** a DSL workspace definition includes model and view sections
@@ -9,7 +9,7 @@ The system MUST provide a DSL-shaped import boundary that can materialize worksp
 
 #### Scenario: Preserve supported view structures
 - **WHEN** a DSL workspace defines supported view types
-- **THEN** the system MUST map them to the existing C4Sharp.NET view model
+- **THEN** the system MUST map them to the existing C4.Net view model
 
 ### Requirement: DSL identifier handling
 The system MUST preserve explicit identifiers from DSL input and MUST generate stable identifiers when DSL input omits them.
