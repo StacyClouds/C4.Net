@@ -9,8 +9,8 @@
     <Authors>Stacy Cashmore</Authors>
     <Copyright>Copyright 2026</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://c4sharp.net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/StacyClouds/C4.Net</RepositoryUrl>
+    <PackageProjectUrl>https://c4net.dev</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/C4.Net</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <AddRazorSupportForMvc>false</AddRazorSupportForMvc>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
