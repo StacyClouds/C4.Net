@@ -1,6 +1,6 @@
-# Contributing to C4Sharp.NET
+# Contributing to C4.Net
 
-Thank you for your interest in contributing to C4Sharp.NET! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to C4.Net! This document provides guidelines and instructions for contributing.
 
 ## Code of Conduct
 
@@ -45,13 +45,13 @@ We expect all project participants to follow these rules in all project spaces, 
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/c4sharp.net.git
-   cd c4sharp.net
+   git clone https://github.com/YOUR-USERNAME/C4.Net.git
+   cd C4.Net
    ```
 
 3. Add upstream remote:
    ```bash
-   git remote add upstream https://github.com/StacyClouds/c4sharp.net.git
+   git remote add upstream https://github.com/StacyClouds/C4.Net.git
    ```
 
 4. Restore dependencies:
@@ -198,7 +198,7 @@ To regenerate locally step by step:
 dotnet tool restore
 
 # Build all library projects to produce up-to-date XML doc files
-dotnet build StacyClouds.C4Sharp.slnx -c Release -p:TargetFramework=net10.0
+dotnet build C4.Net.slnx -c Release -p:TargetFramework=net10.0
 
 # Generate metadata YAML from the project sources (output goes to api/)
 dotnet docfx metadata docfx.json --property TargetFramework=net10.0
@@ -241,7 +241,7 @@ dotnet build
 dotnet build --configuration Release
 
 # Build specific project
-dotnet build StacyClouds.C4Sharp.Core/StacyClouds.C4Sharp.Core.csproj
+dotnet build C4.Net.Core/C4.Net.Core.csproj
 ```
 
 ### Testing
@@ -274,10 +274,10 @@ dotnet stryker --config-file stryker-dsl-config.json
 ```
 
 Current baseline scope is business-logic encryption code under
-`StacyClouds.C4Sharp.Client/Encryption/**/*.cs` with a break threshold of 80%.
+`C4.Net.Client/Encryption/**/*.cs` with a break threshold of 80%.
 
-The DSL foundation scope covers `StacyClouds.C4Sharp.Core/Dsl/DslWorkspaceImporter.cs`
-and `StacyClouds.C4Sharp.Core/Dsl/DslIdGenerator.cs`.
+The DSL foundation scope covers `C4.Net.Core/Dsl/DslWorkspaceImporter.cs`
+and `C4.Net.Core/Dsl/DslIdGenerator.cs`.
 
 ### Creating NuGet Packages
 
@@ -286,40 +286,40 @@ and `StacyClouds.C4Sharp.Core/Dsl/DslIdGenerator.cs`.
 dotnet build --configuration Release
 
 # Find packages in:
-# StacyClouds.C4Sharp.Core/bin/Release/StacyClouds.C4Sharp.Core.*.nupkg
-# StacyClouds.C4Sharp.Client/bin/Release/StacyClouds.C4Sharp.Client.*.nupkg
+# C4.Net.Core/bin/Release/C4.Net.Core.*.nupkg
+# C4.Net.Client/bin/Release/C4.Net.Client.*.nupkg
 ```
 
 ## Project Structure
 
 ```
 c4sharp.net/
-├── StacyClouds.C4Sharp.Core/           # Core model library
-├── StacyClouds.C4Sharp.Core.Tests/     # Core library tests
-├── StacyClouds.C4Sharp.Client/         # API client library
-├── StacyClouds.C4Sharp.Client.Tests/   # Client library tests
-├── StacyClouds.C4Sharp.Examples/       # Example applications
+├── C4.Net.Core/           # Core model library
+├── C4.Net.Core.Tests/     # Core library tests
+├── C4.Net.Client/         # API client library
+├── C4.Net.Client.Tests/   # Client library tests
+├── C4.Net.Examples/       # Example applications
 ├── docs/                       # Documentation and website
 └── README.md                   # Project readme
 ```
 
 ## .NET 11 readiness validation
 
-Use this command set to validate the .NET 11 support gate for the maintained C4Sharp solution:
+Use this command set to validate the .NET 11 support gate for the maintained C4.Net solution:
 
 ```bash
-dotnet restore StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
-dotnet build StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
-dotnet test StacyClouds.C4Sharp.slnx -p:TargetFramework=net11.0
+dotnet restore C4.Net.slnx -p:TargetFramework=net11.0
+dotnet build C4.Net.slnx -p:TargetFramework=net11.0
+dotnet test C4.Net.slnx -p:TargetFramework=net11.0
 ```
 
 ## Questions?
 
-- Check existing [issues](https://github.com/StacyClouds/c4sharp.net/issues)
+- Check existing [issues](https://github.com/StacyClouds/C4.Net/issues)
 - Create a new issue for questions
 
 ## License
 
 By contributing, you agree that your contributions will be licensed under the Apache License 2.0.
 
-Thank you for contributing to C4Sharp.NET! 🎉
+Thank you for contributing to C4.Net! 🎉

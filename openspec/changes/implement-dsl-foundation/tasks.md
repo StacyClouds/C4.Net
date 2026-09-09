@@ -12,7 +12,7 @@
 ## 3. Code
 
 - [x] 3.1 Add the DSL import entry point for workspace, model, and view structures.
-- [x] 3.2 Map supported DSL workspace and view constructs into existing C4Sharp.NET model types.
+- [x] 3.2 Map supported DSL workspace and view constructs into existing C4.Net model types.
 - [x] 3.3 Preserve explicit DSL identifiers and wire omitted identifiers through the existing generator.
 - [x] 3.4 Apply the configured implied-relationship strategy during DSL import.
 

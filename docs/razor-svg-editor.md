@@ -4,18 +4,18 @@ title: Editor package guide
 
 # Editor package guide
 
-Install `StacyClouds.C4Sharp.Editor` to embed interactive workspace layout editing in a Blazor application.
+Install `C4.Net.Editor` to embed interactive workspace layout editing in a Blazor application.
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Editor
+dotnet add package C4.Net.Editor
 ```
 
-`StacyClouds.C4Sharp.Editor` depends on the renderer package and expects a `Workspace` instance from the core package.
+`C4.Net.Editor` depends on the renderer package and expects a `Workspace` instance from the core package.
 
 ## Namespace
 
 ```razor
-@using StacyClouds.C4Sharp.Editor
+@using C4.Net.Editor
 ```
 
 ## Add static assets
@@ -23,8 +23,8 @@ dotnet add package StacyClouds.C4Sharp.Editor
 Reference the packaged stylesheet and script from the host page.
 
 ```html
-<link rel="stylesheet" href="_content/StacyClouds.C4Sharp.Editor/c4sharp-editor.css" />
-<script src="_content/StacyClouds.C4Sharp.Editor/c4sharp-editor.js"></script>
+<link rel="stylesheet" href="_content/C4.Net.Editor/c4sharp-editor.css" />
+<script src="_content/C4.Net.Editor/c4sharp-editor.js"></script>
 ```
 
 ## Enable an interactive render mode
@@ -51,4 +51,4 @@ Use `ViewEditor` when the host already controls navigation and only needs a sing
 
 Dragging updates `ElementView.X` and `ElementView.Y`. Connector edits update the underlying `RelationshipView`. `LayoutChanged` reports in-memory changes immediately, and `SaveRequested` lets the host decide how to persist the updated workspace.
 
-See `StacyClouds.C4Sharp.Renderer.Web/Components/Pages/Editor.razor` for a complete host example.
+See `C4.Net.Renderer.Web/Components/Pages/Editor.razor` for a complete host example.

@@ -1,0 +1,29 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/docs/">
+    <File Path="docs/api-client.md" />
+    <File Path="docs/client-side-encryption.md" />
+    <File Path="docs/getting-started.md" />
+    <File Path="docs/nuget.md" />
+    <File Path="docs/razor-svg-editor.md" />
+    <File Path="docs/svg-rendering.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/etc/">
+    <File Path="appveyor.yml" />
+  </Folder>
+  <Project Path="C4.Net.Client.Tests/C4.Net.Client.Tests.csproj" />
+  <Project Path="C4.Net.Client/C4.Net.Client.csproj" />
+  <Project Path="C4.Net.Core.Tests/C4.Net.Core.Tests.csproj" />
+  <Project Path="C4.Net.Core/C4.Net.Core.csproj" />
+  <Project Path="C4.Net.Examples/C4.Net.Examples.csproj" />
+  <Project Path="C4.Net.Renderer.Tests/C4.Net.Renderer.Tests.csproj" />
+  <Project Path="C4.Net.Editor.Tests/C4.Net.Editor.Tests.csproj" />
+  <Project Path="C4.Net.Editor/C4.Net.Editor.csproj" />
+  <Project Path="C4.Net.Renderer.Web/C4.Net.Renderer.Web.csproj" />
+  <Project Path="C4.Net.Renderer/C4.Net.Renderer.csproj" />
+</Solution>

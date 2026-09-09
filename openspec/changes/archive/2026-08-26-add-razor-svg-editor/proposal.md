@@ -4,7 +4,7 @@ The SVG renderer makes workspace views portable, but users cannot directly organ
 
 ## What Changes
 
-- Add a separately packable `StacyClouds.C4Sharp.Editor` Razor class library.
+- Add a separately packable `C4.Net.Editor` Razor class library.
 - Provide a workspace SVG editor component with a collapsible thumbnail navigator for selecting workspace views.
 - Persist element positions when a user drags and drops diagram elements.
 - Insert ordered connector vertices when a user double-clicks a relationship arrow.
@@ -24,6 +24,6 @@ The SVG renderer makes workspace views portable, but users cannot directly organ
 
 ## Impact
 
-- Adds a new NuGet package with a dependency on `StacyClouds.C4Sharp.Renderer`; the renderer package remains independent of ASP.NET Core and Razor.
+- Adds a new NuGet package with a dependency on `C4.Net.Renderer`; the renderer package remains independent of ASP.NET Core and Razor.
 - Updates SVG output with additive identifiers for elements and relationships.
 - Updates the renderer web demonstration and user-facing documentation.

@@ -2,27 +2,27 @@
 title: API Reference
 ---
 
-# C4Sharp.NET API Reference
+# C4.Net API Reference
 
-This section contains the full public API reference for all C4Sharp.NET packages,
+This section contains the full public API reference for all C4.Net packages,
 generated from XML documentation comments in the source code.
 
 ## Browse the reference
 
 - [Full API index (Table of Contents)](toc.html)
-- [StacyClouds.C4Sharp.Workspace](StacyClouds.C4Sharp.Workspace.html) — top-level entry point
-- [StacyClouds.C4Sharp.Model](StacyClouds.C4Sharp.Model.html) — the C4 model root
-- [StacyClouds.C4Sharp.Api.StructurizrClient](StacyClouds.C4Sharp.Api.StructurizrClient.html) — publish and fetch workspaces
-- [StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer](StacyClouds.C4Sharp.Renderer.SvgWorkspaceRenderer.html) — SVG rendering
+- [C4.Net.Workspace](C4.Net.Workspace.html) — top-level entry point
+- [C4.Net.Model](C4.Net.Model.html) — the C4 model root
+- [C4.Net.Api.StructurizrClient](C4.Net.Api.StructurizrClient.html) — publish and fetch workspaces
+- [C4.Net.Renderer.SvgWorkspaceRenderer](C4.Net.Renderer.SvgWorkspaceRenderer.html) — SVG rendering
 
 ## Packages covered
 
 | Package | Entry namespace |
 |---------|----------------|
-| StacyClouds.C4Sharp.Core | `StacyClouds.C4Sharp` |
-| StacyClouds.C4Sharp.Client | `StacyClouds.C4Sharp.Api` |
-| StacyClouds.C4Sharp.Renderer | `StacyClouds.C4Sharp.Renderer` |
-| StacyClouds.C4Sharp.Editor | `StacyClouds.C4Sharp.Editor` |
+| C4.Net.Core | `C4.Net` |
+| C4.Net.Client | `C4.Net.Api` |
+| C4.Net.Renderer | `C4.Net.Renderer` |
+| C4.Net.Editor | `C4.Net.Editor` |
 
 ## How this reference is generated
 
@@ -38,12 +38,12 @@ To regenerate step by step:
 
 ```bash
 dotnet tool restore
-dotnet build StacyClouds.C4Sharp.slnx -c Release -p:TargetFramework=net10.0
+dotnet build C4.Net.slnx -c Release -p:TargetFramework=net10.0
 dotnet docfx metadata docfx.json
 dotnet docfx build docfx.json
 ```
 
-See [CONTRIBUTING.md](https://github.com/StacyClouds/c4sharp.net/blob/main/CONTRIBUTING.md#xml-documentation-and-api-reference) for full instructions.
+See [CONTRIBUTING.md](https://github.com/StacyClouds/C4.Net/blob/main/CONTRIBUTING.md#xml-documentation-and-api-reference) for full instructions.
 
 ## XML documentation standards
 

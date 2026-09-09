@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "C4.Net.slnx",
+    "projects": [
+      "C4.Net.Client.Tests/C4.Net.Client.Tests.csproj",
+      "C4.Net.Client/C4.Net.Client.csproj",
+      "C4.Net.Core.Tests/C4.Net.Core.Tests.csproj",
+      "C4.Net.Core/C4.Net.Core.csproj",
+	  "C4.Net.Editor.Tests/C4.Net.Editor.Tests.csproj",
+	  "C4.Net.Editor/C4.Net.Editor.csproj",
+      "C4.Net.Examples/C4.Net.Examples.csproj",
+      "C4.Net.Renderer.Tests/C4.Net.Renderer.Tests.csproj",
+      "C4.Net.Renderer/C4.Net.Renderer.csproj"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 ## Context
 
-`StacyClouds.C4Sharp.Renderer` is a multi-targeted .NET library that produces standalone SVG documents from workspace views. The existing web project only embeds those documents in an iframe. Users need an interactive editor, but adding Razor dependencies to the renderer would make a lightweight library harder to consume and may be incompatible with non-web solutions.
+`C4.Net.Renderer` is a multi-targeted .NET library that produces standalone SVG documents from workspace views. The existing web project only embeds those documents in an iframe. Users need an interactive editor, but adding Razor dependencies to the renderer would make a lightweight library harder to consume and may be incompatible with non-web solutions.
 
 ## Goals / Non-Goals
 
@@ -21,7 +21,7 @@
 
 ### Separate Razor class library package
 
-Create `StacyClouds.C4Sharp.Editor` using `Microsoft.NET.Sdk.Razor`, package metadata consistent with the existing libraries, and a project reference to the renderer. The renderer remains a pure .NET dependency. A Razor class library is selected over extending the web project so applications can reuse the component in their own Blazor hosting model.
+Create `C4.Net.Editor` using `Microsoft.NET.Sdk.Razor`, package metadata consistent with the existing libraries, and a project reference to the renderer. The renderer remains a pure .NET dependency. A Razor class library is selected over extending the web project so applications can reuse the component in their own Blazor hosting model.
 
 ### Additive SVG interaction identifiers
 

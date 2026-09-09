@@ -19,6 +19,6 @@ The library currently targets .NET 8, 9, and 10, but does not yet declare or val
 
 ## Impact
 
-- Affected code: project target frameworks across maintained `StacyClouds.C4Sharp.*` projects; crypto implementation in `StacyClouds.C4Sharp.Client/Encryption/AesEncryptionStrategy.cs`.
+- Affected code: project target frameworks across maintained `C4.Net.*` projects; crypto implementation in `C4.Net.Client/Encryption/AesEncryptionStrategy.cs`.
 - Affected docs: `README.md`, `CONTRIBUTING.md`, and any CI/build guidance that declares supported SDKs.
 - Affected tooling/CI: build and test matrix updates to include net11.0 where applicable.

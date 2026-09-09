@@ -1,6 +1,6 @@
 ## Context
 
-C4Sharp.NET is an API-first C4 model library. The current codebase already covers foundational model and view primitives, including system/container/component/deployment views, filtered views, styles, themes, documentation helpers, and encrypted workspace transport. However, it does not yet have a single authoritative comparison against the Structurizr DSL feature surface, and there is no published plan that ranks the missing DSL areas by value and dependency.
+C4.Net is an API-first C4 model library. The current codebase already covers foundational model and view primitives, including system/container/component/deployment views, filtered views, styles, themes, documentation helpers, and encrypted workspace transport. However, it does not yet have a single authoritative comparison against the Structurizr DSL feature surface, and there is no published plan that ranks the missing DSL areas by value and dependency.
 
 ## Goals / Non-Goals
 

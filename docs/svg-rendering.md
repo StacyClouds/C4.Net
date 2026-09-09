@@ -4,16 +4,16 @@ title: Renderer package guide
 
 # Renderer package guide
 
-Install `StacyClouds.C4Sharp.Renderer` when you need standalone SVG documents for one or more workspace views.
+Install `C4.Net.Renderer` when you need standalone SVG documents for one or more workspace views.
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Renderer
+dotnet add package C4.Net.Renderer
 ```
 
 ## Namespace
 
 ```csharp
-using StacyClouds.C4Sharp.Renderer;
+using C4.Net.Renderer;
 ```
 
 ## Render a workspace
@@ -43,5 +43,5 @@ The two-workspace overload copies matching view geometry, element positions, con
 
 ## Related topics
 
-- `StacyClouds.C4Sharp.Editor` builds on this package for interactive browser editing.
-- `StacyClouds.C4Sharp.Examples/SvgRenderingExample.cs` shows a complete rendering example.
+- `C4.Net.Editor` builds on this package for interactive browser editing.
+- `C4.Net.Examples/SvgRenderingExample.cs` shows a complete rendering example.

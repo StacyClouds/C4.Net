@@ -6,8 +6,8 @@
 
 ## 2. Validation
 
-- [x] Run `dotnet test StacyClouds.C4Sharp.Renderer.Tests/StacyClouds.C4Sharp.Renderer.Tests.csproj`.
-- [x] Run `dotnet restore StacyClouds.C4Sharp.slnx`.
-- [x] Run `dotnet build StacyClouds.C4Sharp.slnx`.
-- [x] Run `dotnet test StacyClouds.C4Sharp.slnx`.
+- [x] Run `dotnet test C4.Net.Renderer.Tests/C4.Net.Renderer.Tests.csproj`.
+- [x] Run `dotnet restore C4.Net.slnx`.
+- [x] Run `dotnet build C4.Net.slnx`.
+- [x] Run `dotnet test C4.Net.slnx`.
 - [x] Confirm `openspec status --change "preserve-layout-when-rendering-successor"` reports all apply-required artifacts complete.

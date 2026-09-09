@@ -9,7 +9,7 @@ elements.
 
 ## What Changes
 
-- Add a `StacyClouds.C4Sharp.Renderer` class library that produces an SVG for
+- Add a `C4.Net.Renderer` class library that produces an SVG for
   every supported view in a workspace.
 - Render persisted element coordinates, relationship routing vertices, labels,
   titles, dimensions, and view styles as SVG.

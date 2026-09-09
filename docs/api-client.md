@@ -4,17 +4,17 @@ title: Client package guide
 
 # Client package guide
 
-Install `StacyClouds.C4Sharp.Client` when your application needs to read or publish workspaces through a Structurizr-compatible API.
+Install `C4.Net.Client` when your application needs to read or publish workspaces through a Structurizr-compatible API.
 
 ```bash
-dotnet add package StacyClouds.C4Sharp.Client
+dotnet add package C4.Net.Client
 ```
 
 ## Namespaces
 
 ```csharp
-using StacyClouds.C4Sharp;
-using StacyClouds.C4Sharp.Api;
+using C4.Net;
+using C4.Net.Api;
 ```
 
 ## Create a client

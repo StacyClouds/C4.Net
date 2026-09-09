@@ -56,17 +56,17 @@ jobs:
         run: dotnet tool restore
 
       - name: Restore packages
-        run: dotnet restore StacyClouds.C4Sharp.CI.slnf
+        run: dotnet restore C4.Net.CI.slnf
 
       - name: Build packages
-        run: dotnet build StacyClouds.C4Sharp.CI.slnf --no-restore -c Release
+        run: dotnet build C4.Net.CI.slnf --no-restore -c Release
 
       - name: Pack NuGet packages
         run: |
-          dotnet pack StacyClouds.C4Sharp.Core/StacyClouds.C4Sharp.Core.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
-          dotnet pack StacyClouds.C4Sharp.Client/StacyClouds.C4Sharp.Client.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
-          dotnet pack StacyClouds.C4Sharp.Renderer/StacyClouds.C4Sharp.Renderer.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
-          dotnet pack StacyClouds.C4Sharp.Editor/StacyClouds.C4Sharp.Editor.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
+          dotnet pack C4.Net.Core/C4.Net.Core.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
+          dotnet pack C4.Net.Client/C4.Net.Client.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
+          dotnet pack C4.Net.Renderer/C4.Net.Renderer.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
+          dotnet pack C4.Net.Editor/C4.Net.Editor.csproj --no-build --no-restore -c Release -p:Version=${{ env.PACKAGE_VERSION }} -o ./artifacts/nuget
 
       - name: NuGet login (OIDC)
         id: nuget-login

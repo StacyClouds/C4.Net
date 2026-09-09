@@ -1,6 +1,6 @@
 ## Why
 
-C4Sharp.NET already covers most of the underlying C4 model, but it still lacks a DSL-shaped import boundary for the foundation features that users expect from Structurizr DSL. Closing that gap now unlocks a path to round-trip workspace definitions, align identifier behavior, and preserve implied-relationship semantics without forcing users to stay in the API-first model.
+C4.Net already covers most of the underlying C4 model, but it still lacks a DSL-shaped import boundary for the foundation features that users expect from Structurizr DSL. Closing that gap now unlocks a path to round-trip workspace definitions, align identifier behavior, and preserve implied-relationship semantics without forcing users to stay in the API-first model.
 
 ## What Changes
 

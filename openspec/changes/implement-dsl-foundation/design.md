@@ -1,6 +1,6 @@
 ## Context
 
-C4Sharp.NET already models workspaces, views, identifiers, and implied-relationship strategies, but those capabilities are exposed through the API rather than a DSL import boundary. The gap analysis identified the foundation phase as the highest-leverage first step because it creates the substrate for later includes, scripts, expressions, and ecosystem parity work.
+C4.Net already models workspaces, views, identifiers, and implied-relationship strategies, but those capabilities are exposed through the API rather than a DSL import boundary. The gap analysis identified the foundation phase as the highest-leverage first step because it creates the substrate for later includes, scripts, expressions, and ecosystem parity work.
 
 ## Goals / Non-Goals
 
