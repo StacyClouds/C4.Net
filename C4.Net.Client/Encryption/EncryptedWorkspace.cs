@@ -1,8 +1,8 @@
-using C4.Net.IO.Json;
+using C4.Net.Client.IO.Json;
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace C4.Net.Encryption
+namespace C4.Net.Client.Encryption
 {
 
     /// <summary>

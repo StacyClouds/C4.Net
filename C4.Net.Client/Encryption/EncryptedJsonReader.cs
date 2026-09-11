@@ -1,8 +1,8 @@
 using Newtonsoft.Json;
-using C4.Net.IO.Json;
+using C4.Net.Client.IO.Json;
 using System.IO;
 
-namespace C4.Net.Encryption
+namespace C4.Net.Client.Encryption
 {
     /// <summary>
     /// Deserializes encrypted workspace JSON payloads.

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
     /// <summary>
     /// Formats the Structurizr HMAC authorization header value.

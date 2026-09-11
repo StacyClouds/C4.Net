@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
     /// <summary>
     /// Builds the canonical newline-delimited content string used for HMAC signing.

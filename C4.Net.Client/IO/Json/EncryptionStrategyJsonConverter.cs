@@ -1,10 +1,10 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using C4.Net.Encryption;
+using C4.Net.Client.Encryption;
 using System;
 using System.Reflection;
 
-namespace C4.Net.IO.Json
+namespace C4.Net.Client.IO.Json
 {
     /// <summary>
     /// Deserializes polymorphic encryption strategy JSON payloads.

@@ -1,4 +1,4 @@
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
     /// <summary>
     /// Defines HTTP header names used by the Structurizr API client.

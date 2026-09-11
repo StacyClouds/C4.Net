@@ -1,5 +1,5 @@
-using C4.Net.Encryption;
-using C4.Net.IO.Json;
+using C4.Net.Client.Encryption;
+using C4.Net.Client.IO.Json;
 using System;
 using System.IO;
 using System.Net;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
 
     /// <summary>

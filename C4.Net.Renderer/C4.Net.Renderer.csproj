@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net8.0;net9.0;net10.0;net11.0</TargetFrameworks>
-    <RootNamespace>C4.Net</RootNamespace>
     <Version>1.1.1</Version>
     <PackageId>C4.Net.Renderer</PackageId>
     <Description>SVG rendering for C4.Net workspace views.</Description>

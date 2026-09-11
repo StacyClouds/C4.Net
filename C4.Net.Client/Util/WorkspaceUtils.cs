@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Text;
-using C4.Net.IO.Json;
+using C4.Net.Client.IO.Json;
 
-namespace C4.Net
+namespace C4.Net.Client
 {
 
     /// <summary>

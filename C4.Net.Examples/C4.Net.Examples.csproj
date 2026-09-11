@@ -2,7 +2,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>net8.0;net9.0;net10.0;net11.0</TargetFrameworks>
-    <RootNamespace>C4.Net</RootNamespace>
     <StartupObject>C4.Net.Examples.GettingStarted</StartupObject>
     <IsPackable>false</IsPackable>
   </PropertyGroup>

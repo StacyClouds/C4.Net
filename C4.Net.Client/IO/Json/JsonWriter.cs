@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using System.IO;
 using Newtonsoft.Json.Converters;
 
-namespace C4.Net.IO.Json
+namespace C4.Net.Client.IO.Json
 {
     /// <summary>
     /// Serializes workspaces to JSON.
