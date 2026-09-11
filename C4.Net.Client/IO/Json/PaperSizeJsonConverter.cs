@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using System;
 using System.Reflection;
 
-namespace C4.Net.IO.Json
+namespace C4.Net.Client.IO.Json
 {
     /// <summary>
     /// Converts paper size objects to and from their serialized string keys.

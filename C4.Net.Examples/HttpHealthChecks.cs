@@ -1,5 +1,6 @@
 using System;
-using C4.Net.Api;
+using C4.Net.Client.Api;
+using C4.Net.Client;
 
 namespace C4.Net.Examples
 {

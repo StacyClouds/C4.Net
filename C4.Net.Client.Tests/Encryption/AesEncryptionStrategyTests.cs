@@ -1,9 +1,9 @@
 using Xunit;
 using System;
-using C4.Net.Encryption;
+using C4.Net.Client.Encryption;
 using System.Security.Cryptography;
 
-namespace C4.Net.Api.Encryption.Tests
+namespace C4.Net.Client.Api.Encryption.Tests
 {
     
     public class AesEncryptionStrategyTests

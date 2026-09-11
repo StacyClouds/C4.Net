@@ -3,7 +3,7 @@ using Newtonsoft.Json.Converters;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
 
     /// <summary>

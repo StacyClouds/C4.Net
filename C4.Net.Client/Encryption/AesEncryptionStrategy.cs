@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace C4.Net.Encryption
+namespace C4.Net.Client.Encryption
 {
     /// <summary>
     /// Encrypts workspace JSON using AES/CBC with PBKDF2-derived keys.

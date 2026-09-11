@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Linq;
-using C4.Net.IO.Json;
+using C4.Net.Client.IO.Json;
 using Xunit;
 
-namespace C4.Net.Api.Tests.IO
+namespace C4.Net.Client.Api.Tests.IO
 {
     public class JsonReaderTests
     {

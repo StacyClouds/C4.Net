@@ -1,7 +1,7 @@
 using System;
-using C4.Net.Encryption;
+using C4.Net.Client.Encryption;
 
-namespace C4.Net.Api.Encryption.Tests
+namespace C4.Net.Client.Api.Encryption.Tests
 {
     internal class MockEncryptionStrategy : EncryptionStrategy
     {

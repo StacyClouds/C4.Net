@@ -1,6 +1,6 @@
 using System;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
     /// <summary>
     /// Represents failures that occur while calling the Structurizr API.

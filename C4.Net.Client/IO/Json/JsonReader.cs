@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json.Converters;
 
-namespace C4.Net.IO.Json
+namespace C4.Net.Client.IO.Json
 {
     /// <summary>
     /// Deserializes workspace JSON payloads into hydrated workspace objects.

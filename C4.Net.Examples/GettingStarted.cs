@@ -1,4 +1,4 @@
-using C4.Net.Api;
+using C4.Net.Client.Api;
 
 namespace C4.Net.Examples
 {

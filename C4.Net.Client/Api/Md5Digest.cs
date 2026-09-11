@@ -2,7 +2,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace C4.Net.Api
+namespace C4.Net.Client.Api
 {
     /// <summary>
     /// Produces MD5 digests for Structurizr API payload signing.
