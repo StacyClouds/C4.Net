@@ -1,5 +1,5 @@
 using System.Linq;
-using C4.Net.Api;
+using C4.Net.Client.Api;
 using C4.Net.Core.Util;
 using C4.Net.Documentation;
 

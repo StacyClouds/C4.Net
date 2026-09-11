@@ -8,11 +8,11 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using C4.Net.Encryption;
-using C4.Net.IO.Json;
+using C4.Net.Client.Encryption;
+using C4.Net.Client.IO.Json;
 using Xunit;
 
-namespace C4.Net.Api.Tests
+namespace C4.Net.Client.Api.Tests
 {
     public class StructurizrClientBehaviorTests
     {

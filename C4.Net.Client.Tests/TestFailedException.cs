@@ -1,6 +1,6 @@
 using System;
 
-namespace C4.Net.Api.Tests
+namespace C4.Net.Client.Api.Tests
 {
     public class TestFailedException : Exception
     {

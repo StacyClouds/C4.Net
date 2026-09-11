@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using Xunit;
 
-namespace C4.Net.Api.Tests.Util
+namespace C4.Net.Client.Api.Tests.Util
 {
     public class WorkspaceUtilsTests
     {

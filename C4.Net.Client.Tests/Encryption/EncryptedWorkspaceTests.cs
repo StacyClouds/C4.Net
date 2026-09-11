@@ -1,11 +1,11 @@
 using System.IO;
 using System.Linq;
 using C4.Net.Config;
-using C4.Net.Encryption;
-using C4.Net.IO.Json;
+using C4.Net.Client.Encryption;
+using C4.Net.Client.IO.Json;
 using Xunit;
 
-namespace C4.Net.Api.Encryption.Tests
+namespace C4.Net.Client.Api.Encryption.Tests
 {
     public class EncryptedWorkspaceTests
     {

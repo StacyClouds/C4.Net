@@ -1,5 +1,5 @@
-using C4.Net.Api;
-using C4.Net.Encryption;
+using C4.Net.Client.Api;
+using C4.Net.Client.Encryption;
 
 namespace C4.Net.Examples
 {
