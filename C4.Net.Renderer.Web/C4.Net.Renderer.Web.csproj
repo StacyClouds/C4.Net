@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net11.0</TargetFramework>
+    <RootNamespace>C4.Net</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
