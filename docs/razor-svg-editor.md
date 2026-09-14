@@ -23,8 +23,8 @@ dotnet add package C4.Net.Editor
 Reference the packaged stylesheet and script from the host page.
 
 ```html
-<link rel="stylesheet" href="_content/C4.Net.Editor/c4sharp-editor.css" />
-<script src="_content/C4.Net.Editor/c4sharp-editor.js"></script>
+<link rel="stylesheet" href="_content/C4.Net.Editor/c4-net-editor.css" />
+<script src="_content/C4.Net.Editor/c4-net-editor.js"></script>
 ```
 
 ## Enable an interactive render mode
