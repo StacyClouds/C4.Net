@@ -33,7 +33,7 @@
 
 	protected override async Task OnAfterRenderAsync(bool firstRender)
 	{
-		if (firstRender) { reference = DotNetObjectReference.Create(this); await JS.InvokeVoidAsync("c4sharpEditor.initialize", host, reference); }
+		if (firstRender) { reference = DotNetObjectReference.Create(this); await JS.InvokeVoidAsync("c4NetEditor.initialize", host, reference); }
 	}
 
 	[JSInvokable] public async Task MoveElement(string id, int x, int y)
@@ -84,6 +84,6 @@
 
 	public async ValueTask DisposeAsync()
 	{
-		if (reference is not null) { await JS.InvokeVoidAsync("c4sharpEditor.dispose", host); reference.Dispose(); }
+		if (reference is not null) { await JS.InvokeVoidAsync("c4NetEditor.dispose", host); reference.Dispose(); }
 	}
 }

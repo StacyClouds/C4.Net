@@ -31,7 +31,7 @@ namespace C4.Net.Editor.Tests
 			workspace.Views.CreateSystemLandscapeView("first", "First");
 			workspace.Views.CreateDynamicView("second", "Second");
 			string? selected = null;
-			JSInterop.SetupVoid("c4sharpEditor.initialize", _ => true);
+			JSInterop.SetupVoid("c4NetEditor.initialize", _ => true);
 			IRenderedComponent<WorkspaceEditor> cut = Render<WorkspaceEditor>(parameters => parameters
 				.Add(component => component.Workspace, workspace)
 				.Add(component => component.SelectedViewKey, "first")
@@ -60,7 +60,7 @@ namespace C4.Net.Editor.Tests
 			view.GetElementView(source).Y = 100;
 			view.GetElementView(destination).X = 500;
 			view.GetElementView(destination).Y = 300;
-			JSInterop.SetupVoid("c4sharpEditor.initialize", _ => true);
+			JSInterop.SetupVoid("c4NetEditor.initialize", _ => true);
 			IRenderedComponent<ViewEditor> cut = Render<ViewEditor>(parameters => parameters
 				.Add(component => component.Workspace, workspace)
 				.Add(component => component.ViewKey, view.Key));
@@ -79,9 +79,10 @@ namespace C4.Net.Editor.Tests
 		[Fact]
 		public void EditorScript_UpdatesTheDraggedElementBeforePointerUp()
 		{
-			string scriptPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "C4.Net.Editor", "wwwroot", "c4sharp-editor.js"));
+			string scriptPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "C4.Net.Editor", "wwwroot", "c4-net-editor.js"));
 			string script = File.ReadAllText(scriptPath);
 
+			script.ShouldContain("window.c4NetEditor");
 			script.ShouldContain("pointermove");
 			script.ShouldContain("setAttribute('transform'");
 			script.ShouldContain("c4RelationshipSourceId");
