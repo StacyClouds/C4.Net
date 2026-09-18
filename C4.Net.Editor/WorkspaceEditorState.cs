@@ -59,10 +59,12 @@ namespace C4.Net.Editor
 		/// <exception cref="ArgumentException">Thrown when the element does not exist in the selected view.</exception>
 		public void MoveElement(string elementId, int x, int y)
 		{
-			ElementView element = GetLayoutView().Elements.FirstOrDefault(candidate => candidate.Id == elementId);
+			View view = GetLayoutView();
+			ElementView element = view.Elements.FirstOrDefault(candidate => candidate.Id == elementId);
 			if (element == null) throw new ArgumentException("The element does not exist in the selected view.", nameof(elementId));
 			element.X = x;
 			element.Y = y;
+			view.Dimensions = null;
 		}
 
 		/// <summary>
@@ -80,6 +82,7 @@ namespace C4.Net.Editor
 			List<Vertex> vertices = relationship.Vertices;
 			vertices.Insert(FindNearestSegment(view, relationship, vertices, x, y), new Vertex(x, y));
 			relationship.SetVertices(vertices);
+			view.Dimensions = null;
 		}
 
 		/// <summary>
@@ -98,6 +101,7 @@ namespace C4.Net.Editor
 			if (index < 0 || index >= vertices.Count) throw new ArgumentOutOfRangeException(nameof(index));
 			vertices[index] = new Vertex(x, y);
 			relationship.SetVertices(vertices);
+			GetLayoutView().Dimensions = null;
 		}
 
 		/// <summary>
@@ -114,6 +118,7 @@ namespace C4.Net.Editor
 			if (index < 0 || index >= vertices.Count) throw new ArgumentOutOfRangeException(nameof(index));
 			vertices.RemoveAt(index);
 			relationship.SetVertices(vertices);
+			GetLayoutView().Dimensions = null;
 		}
 
 		/// <summary>

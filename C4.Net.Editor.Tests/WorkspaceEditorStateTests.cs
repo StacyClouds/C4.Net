@@ -75,6 +75,25 @@ namespace C4.Net.Editor.Tests
 		}
 
 		[Fact]
+		public void LayoutEdits_ClearPersistedViewDimensionsSoCanvasCanResizeOnSave()
+		{
+			Workspace workspace = new Workspace("Test", "Description");
+			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
+			SoftwareSystem destination = workspace.Model.AddSoftwareSystem("Destination", "Description");
+			Relationship relationship = source.Uses(destination, "Calls");
+			SystemLandscapeView view = workspace.Views.CreateSystemLandscapeView("landscape", "Landscape");
+			view.AddAllSoftwareSystems();
+			view.Dimensions = new Dimensions(1600, 1200);
+			WorkspaceEditorState state = new WorkspaceEditorState(workspace, view.Key);
+
+			state.MoveElement(source.Id, 120, 120);
+			view.Dimensions.ShouldBeNull();
+			view.Dimensions = new Dimensions(1600, 1200);
+			state.AddRelationshipVertex(relationship.Id, 300, 100);
+			view.Dimensions.ShouldBeNull();
+		}
+
+		[Fact]
 		public void MoveRelationshipLabel_PersistsItsPositionAlongTheConnectorPath()
 		{
 			Workspace workspace = new Workspace("Test", "Description");
