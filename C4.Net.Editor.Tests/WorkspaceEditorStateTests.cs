@@ -75,7 +75,40 @@ namespace C4.Net.Editor.Tests
 		}
 
 		[Fact]
-		public void LayoutEdits_ClearPersistedViewDimensionsSoCanvasCanResizeOnSave()
+		public void MoveElement_ClearsPersistedViewDimensionsSoCanvasCanResizeOnSave()
+		{
+			Workspace workspace = new Workspace("Test", "Description");
+			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
+			workspace.Model.AddSoftwareSystem("Destination", "Description");
+			SystemLandscapeView view = workspace.Views.CreateSystemLandscapeView("landscape", "Landscape");
+			view.AddAllSoftwareSystems();
+			view.Dimensions = new Dimensions(1600, 1200);
+			WorkspaceEditorState state = new WorkspaceEditorState(workspace, view.Key);
+
+			state.MoveElement(source.Id, 120, 120);
+
+			view.Dimensions.ShouldBeNull();
+		}
+
+		[Fact]
+		public void AddRelationshipVertex_ClearsPersistedViewDimensionsSoCanvasCanResizeOnSave()
+		{
+			Workspace workspace = new Workspace("Test", "Description");
+			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
+			SoftwareSystem destination = workspace.Model.AddSoftwareSystem("Destination", "Description");
+			Relationship relationship = source.Uses(destination, "Calls");
+			SystemLandscapeView view = workspace.Views.CreateSystemLandscapeView("landscape", "Landscape");
+			view.AddAllSoftwareSystems();
+			view.Dimensions = new Dimensions(1600, 1200);
+
+			WorkspaceEditorState state = new WorkspaceEditorState(workspace, view.Key);
+
+			state.AddRelationshipVertex(relationship.Id, 300, 100);
+			view.Dimensions.ShouldBeNull();
+		}
+
+		[Fact]
+		public void MoveRelationshipVertex_ClearsPersistedViewDimensionsSoCanvasCanResizeOnSave()
 		{
 			Workspace workspace = new Workspace("Test", "Description");
 			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
@@ -86,16 +119,30 @@ namespace C4.Net.Editor.Tests
 			view.Dimensions = new Dimensions(1600, 1200);
 			WorkspaceEditorState state = new WorkspaceEditorState(workspace, view.Key);
 
-			state.MoveElement(source.Id, 120, 120);
-			view.Dimensions.ShouldBeNull();
-			view.Dimensions = new Dimensions(1600, 1200);
 			state.AddRelationshipVertex(relationship.Id, 300, 100);
-			view.Dimensions.ShouldBeNull();
 			view.Dimensions = new Dimensions(1600, 1200);
 			state.MoveRelationshipVertex(relationship.Id, 0, 320, 120);
+
 			view.Dimensions.ShouldBeNull();
+		}
+
+		[Fact]
+		public void RemoveRelationshipVertex_ClearsPersistedViewDimensionsSoCanvasCanResizeOnSave()
+		{
+			Workspace workspace = new Workspace("Test", "Description");
+			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
+			SoftwareSystem destination = workspace.Model.AddSoftwareSystem("Destination", "Description");
+			Relationship relationship = source.Uses(destination, "Calls");
+			SystemLandscapeView view = workspace.Views.CreateSystemLandscapeView("landscape", "Landscape");
+			view.AddAllSoftwareSystems();
+			view.Dimensions = new Dimensions(1600, 1200);
+
+			WorkspaceEditorState state = new WorkspaceEditorState(workspace, view.Key);
+
+			state.AddRelationshipVertex(relationship.Id, 300, 100);
 			view.Dimensions = new Dimensions(1600, 1200);
 			state.RemoveRelationshipVertex(relationship.Id, 0);
+
 			view.Dimensions.ShouldBeNull();
 		}
 
