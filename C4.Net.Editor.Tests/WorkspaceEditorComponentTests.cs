@@ -1,6 +1,7 @@
 using Bunit;
 using System;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Shouldly;
@@ -94,10 +95,19 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("data-c4-relationship-interaction");
 			script.ShouldContain("updateVisibleConnector");
 			script.ShouldContain("edgeOfElement(source, points[0], points[1])");
-			script.ShouldContain("selectedIds = new Set()");
-			script.ShouldContain("isMultiSelectModifier");
-			script.ShouldContain("applySelection");
-			script.ShouldContain("for (const selected of d.selected) await component.invokeMethodAsync('MoveElement'");
+		}
+
+		[Fact]
+		public void EditorScript_ImplementsMultiselectDragLifecycle()
+		{
+			string scriptPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "C4.Net.Editor", "wwwroot", "c4-net-editor.js"));
+			string script = File.ReadAllText(scriptPath);
+
+			Regex.IsMatch(script, @"if \(isMultiSelectModifier\(e\)\)").ShouldBeTrue();
+			Regex.IsMatch(script, @"if \(selectedIds\.has\(id\)\) selectedIds\.delete\(id\); else selectedIds\.add\(id\);").ShouldBeTrue();
+			Regex.IsMatch(script, @"for \(const selected of drag\.selected\) selected\.node\.setAttribute\('transform'").ShouldBeTrue();
+			Regex.IsMatch(script, @"for \(const selected of d\.selected\) await component\.invokeMethodAsync\('MoveElement'").ShouldBeTrue();
+			Regex.IsMatch(script, @"selectedIds\.clear\(\); applySelection\(d\.svg, selectedIds\);").ShouldBeTrue();
 		}
 	}
 }
