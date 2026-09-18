@@ -94,6 +94,10 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("data-c4-relationship-interaction");
 			script.ShouldContain("updateVisibleConnector");
 			script.ShouldContain("edgeOfElement(source, points[0], points[1])");
+			script.ShouldContain("selectedIds = new Set()");
+			script.ShouldContain("isMultiSelectModifier");
+			script.ShouldContain("applySelection");
+			script.ShouldContain("for (const selected of d.selected) await component.invokeMethodAsync('MoveElement'");
 		}
 	}
 }
