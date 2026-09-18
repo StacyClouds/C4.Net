@@ -96,12 +96,14 @@ namespace C4.Net.Editor
 		/// <exception cref="ArgumentOutOfRangeException">Thrown when <paramref name="index"/> does not identify an existing vertex.</exception>
 		public void MoveRelationshipVertex(string relationshipId, int index, int x, int y)
 		{
-			RelationshipView relationship = GetRelationship(relationshipId);
+			View view = GetLayoutView();
+			RelationshipView relationship = view.Relationships.FirstOrDefault(candidate => candidate.Id == relationshipId);
+			if (relationship == null) throw new ArgumentException("The relationship does not exist in the selected view.", nameof(relationshipId));
 			List<Vertex> vertices = relationship.Vertices;
 			if (index < 0 || index >= vertices.Count) throw new ArgumentOutOfRangeException(nameof(index));
 			vertices[index] = new Vertex(x, y);
 			relationship.SetVertices(vertices);
-			GetLayoutView().Dimensions = null;
+			view.Dimensions = null;
 		}
 
 		/// <summary>
@@ -113,12 +115,14 @@ namespace C4.Net.Editor
 		/// <exception cref="ArgumentOutOfRangeException">Thrown when <paramref name="index"/> does not identify an existing vertex.</exception>
 		public void RemoveRelationshipVertex(string relationshipId, int index)
 		{
-			RelationshipView relationship = GetRelationship(relationshipId);
+			View view = GetLayoutView();
+			RelationshipView relationship = view.Relationships.FirstOrDefault(candidate => candidate.Id == relationshipId);
+			if (relationship == null) throw new ArgumentException("The relationship does not exist in the selected view.", nameof(relationshipId));
 			List<Vertex> vertices = relationship.Vertices;
 			if (index < 0 || index >= vertices.Count) throw new ArgumentOutOfRangeException(nameof(index));
 			vertices.RemoveAt(index);
 			relationship.SetVertices(vertices);
-			GetLayoutView().Dimensions = null;
+			view.Dimensions = null;
 		}
 
 		/// <summary>

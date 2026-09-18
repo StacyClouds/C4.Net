@@ -91,6 +91,12 @@ namespace C4.Net.Editor.Tests
 			view.Dimensions = new Dimensions(1600, 1200);
 			state.AddRelationshipVertex(relationship.Id, 300, 100);
 			view.Dimensions.ShouldBeNull();
+			view.Dimensions = new Dimensions(1600, 1200);
+			state.MoveRelationshipVertex(relationship.Id, 0, 320, 120);
+			view.Dimensions.ShouldBeNull();
+			view.Dimensions = new Dimensions(1600, 1200);
+			state.RemoveRelationshipVertex(relationship.Id, 0);
+			view.Dimensions.ShouldBeNull();
 		}
 
 		[Fact]
