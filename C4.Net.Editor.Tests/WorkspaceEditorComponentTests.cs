@@ -122,6 +122,10 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("data-c4-relationship-interaction");
 			script.ShouldContain("updateVisibleConnector");
 			script.ShouldContain("edgeOfElement(source, points[0], points[1])");
+			script.ShouldContain("createSelectionBox");
+			script.ShouldContain("updateSelectionBox");
+			script.ShouldContain("updateMarqueeSelection");
+			script.ShouldContain("c4sharp-selection-box");
 		}
 
 	}

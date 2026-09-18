@@ -48,6 +48,7 @@ The editor components use Blazor interop for dragging elements and editing conne
 Use `ViewEditor` when the host already controls navigation and only needs a single editable view surface.
 
 To move multiple components together, select additional elements with `Ctrl`/`Cmd`/`Shift`, then drag one of the selected elements.
+You can also left-click and drag on empty diagram space to draw a selection box and include items as they enter the box.
 
 ## Persistence responsibilities
 
