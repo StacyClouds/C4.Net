@@ -77,6 +77,34 @@ namespace C4.Net.Editor.Tests
 		}
 
 		[Fact]
+		public async Task ViewEditor_PersistsMultipleElementMovesAcrossCallbackSequence()
+		{
+			Workspace workspace = new Workspace("Test", "Description");
+			SoftwareSystem source = workspace.Model.AddSoftwareSystem("Source", "Description");
+			SoftwareSystem destination = workspace.Model.AddSoftwareSystem("Destination", "Description");
+			Relationship relationship = source.Uses(destination, "Calls");
+			SystemLandscapeView view = workspace.Views.CreateSystemLandscapeView("view", "View");
+			view.AddAllSoftwareSystems();
+			view.GetElementView(source).X = 100;
+			view.GetElementView(source).Y = 100;
+			view.GetElementView(destination).X = 500;
+			view.GetElementView(destination).Y = 300;
+			JSInterop.SetupVoid("c4NetEditor.initialize", _ => true);
+			IRenderedComponent<ViewEditor> cut = Render<ViewEditor>(parameters => parameters
+				.Add(component => component.Workspace, workspace)
+				.Add(component => component.ViewKey, view.Key));
+
+			await cut.InvokeAsync(() => cut.Instance.MoveElement(source.Id, 180, 190));
+			await cut.InvokeAsync(() => cut.Instance.MoveElement(destination.Id, 560, 340));
+
+			view.GetElementView(source).X.ShouldBe(180);
+			view.GetElementView(source).Y.ShouldBe(190);
+			view.GetElementView(destination).X.ShouldBe(560);
+			view.GetElementView(destination).Y.ShouldBe(340);
+			cut.Find("polyline[data-c4-relationship-interaction='true'][data-c4-relationship-id='" + relationship.Id + "']").GetAttribute("points").ShouldContain("180,190 560,340");
+		}
+
+		[Fact]
 		public void EditorScript_UpdatesTheDraggedElementBeforePointerUp()
 		{
 			string scriptPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "C4.Net.Editor", "wwwroot", "c4-net-editor.js"));
@@ -94,6 +122,11 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("data-c4-relationship-interaction");
 			script.ShouldContain("updateVisibleConnector");
 			script.ShouldContain("edgeOfElement(source, points[0], points[1])");
+			script.ShouldContain("createSelectionBox");
+			script.ShouldContain("updateSelectionBox");
+			script.ShouldContain("updateMarqueeSelection");
+			script.ShouldContain("c4sharp-selection-box");
 		}
+
 	}
 }
