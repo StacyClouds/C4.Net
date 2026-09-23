@@ -279,6 +279,7 @@ namespace C4.Net.Renderer.Tests
 
             svg.ShouldContain("data-c4-view-key=\"landscape &amp; view\"");
             svg.ShouldContain("data-c4-element-id=\"" + source.Id + "\"");
+            svg.ShouldContain("data-c4-element-type=\"SoftwareSystem\"");
             svg.ShouldContain("data-c4-element-id=\"" + destination.Id + "\"");
             svg.ShouldContain("data-c4-relationship-id=\"" + relationship.Id + "\"");
             svg.ShouldContain("data-c4-relationship-source-id=\"" + source.Id + "\"");

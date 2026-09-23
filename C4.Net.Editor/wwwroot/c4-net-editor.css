@@ -13,6 +13,7 @@
 .c4sharp-view-editor [data-c4-element-id] { cursor: grab; }
 .c4sharp-view-editor [data-c4-element-id].is-selected rect, .c4sharp-view-editor [data-c4-element-id].is-selected circle { stroke: #1168bd; stroke-width: 3; stroke-dasharray: 6 3; animation: c4sharp-editor-selection-dash .8s linear infinite; }
 .c4sharp-view-editor .c4sharp-selection-box { fill: rgba(17, 104, 189, 0.15); stroke: #1168bd; stroke-width: 1.5; stroke-dasharray: 4 2; }
+.c4sharp-view-editor .c4sharp-snap-guide { stroke: #1168bd; stroke-width: 1.5; stroke-dasharray: 4 2; }
 .c4sharp-view-editor [data-c4-relationship-id] { cursor: crosshair; pointer-events: stroke; }
 .c4sharp-view-editor [data-c4-relationship-vertex-index] { cursor: move; pointer-events: all; }
 .c4sharp-view-editor [data-c4-relationship-label-id] { cursor: move; pointer-events: all; }

@@ -49,6 +49,8 @@ Use `ViewEditor` when the host already controls navigation and only needs a sing
 
 To move multiple components together, select additional elements with `Ctrl`/`Cmd`/`Shift`, then drag one of the selected elements.
 You can also left-click and drag on empty diagram space to draw a selection box and include items as they enter the box.
+Dragged elements, relationship line nodes, and relationship label text snap to matching item types when their horizontal or vertical positions come within 5 pixels.
+Hold `Shift` while dragging to temporarily disable snapping.
 
 ## Persistence responsibilities
 

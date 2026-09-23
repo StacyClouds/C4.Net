@@ -126,6 +126,11 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("updateSelectionBox");
 			script.ShouldContain("updateMarqueeSelection");
 			script.ShouldContain("c4sharp-selection-box");
+			script.ShouldContain("data-c4-element-type");
+			script.ShouldContain("c4sharp-snap-guides");
+			script.ShouldContain("c4sharp-snap-guide");
+			script.ShouldContain("e.shiftKey");
+			script.ShouldContain("closestSnap");
 		}
 
 	}
