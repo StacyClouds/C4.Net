@@ -131,6 +131,8 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("c4sharp-snap-guide");
 			script.ShouldContain("e.shiftKey");
 			script.ShouldContain("closestSnap");
+			script.ShouldContain("closestAxisSnap(current, candidates, threshold, 'x')");
+			script.ShouldContain("closestAxisSnap(current, candidates, threshold, 'y')");
 		}
 
 	}
