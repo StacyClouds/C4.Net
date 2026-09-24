@@ -126,6 +126,17 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("updateSelectionBox");
 			script.ShouldContain("updateMarqueeSelection");
 			script.ShouldContain("c4sharp-selection-box");
+			script.ShouldContain("c4sharp-snap-guides");
+			script.ShouldContain("c4sharp-snap-guide");
+			script.ShouldContain("e.shiftKey");
+			script.ShouldContain("closestSnap");
+			script.ShouldContain("'[data-c4-relationship-vertex-index]'");
+			script.ShouldContain("'[data-c4-element-id], [data-c4-relationship-vertex-index], [data-c4-relationship-label-id]'");
+			script.ShouldContain("closestAxisSnap(current, candidates.flatMap(candidate => candidate.x), threshold, 'x')");
+			script.ShouldContain("closestAxisSnap(current, candidates.flatMap(candidate => candidate.y), threshold, 'y')");
+			script.ShouldContain("candidates.flatMap(candidate => candidate.x)");
+			script.ShouldContain("candidates.flatMap(candidate => candidate.y)");
+			script.ShouldContain("function snapPositions(node)");
 		}
 
 	}

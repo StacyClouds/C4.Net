@@ -118,7 +118,7 @@ namespace C4.Net.Renderer
 				string background = elementStyle == null || elementStyle.Background == null ? "#dddddd" : elementStyle.Background;
 				string stroke = elementStyle == null || elementStyle.Stroke == null ? "#707070" : elementStyle.Stroke;
 				string textColor = elementStyle == null || elementStyle.Color == null ? "#000000" : elementStyle.Color;
-				svg.Append("<g data-c4-element-id=\"").Append(Escape(element.Id)).Append("\">");
+				svg.Append("<g data-c4-element-id=\"").Append(Escape(element.Id)).Append("\" data-c4-element-type=\"").Append(Escape(element.Element == null ? string.Empty : element.Element.GetType().Name)).Append("\">");
 				if (elementStyle != null && elementStyle.Shape == Shape.Circle)
 					svg.Append("<circle cx=\"").Append(x).Append("\" cy=\"").Append(y).Append("\" r=\"35\" fill=\"").Append(background).Append("\" stroke=\"").Append(stroke).Append("\" />");
 				else
