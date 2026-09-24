@@ -131,8 +131,11 @@ namespace C4.Net.Editor.Tests
 			script.ShouldContain("c4sharp-snap-guide");
 			script.ShouldContain("e.shiftKey");
 			script.ShouldContain("closestSnap");
-			script.ShouldContain("closestAxisSnap(current, candidates, threshold, 'x')");
-			script.ShouldContain("closestAxisSnap(current, candidates, threshold, 'y')");
+			script.ShouldContain("closestAxisSnap(current, candidates.flatMap(candidate => candidate.x), threshold, 'x')");
+			script.ShouldContain("closestAxisSnap(current, candidates.flatMap(candidate => candidate.y), threshold, 'y')");
+			script.ShouldContain("candidates.flatMap(candidate => candidate.x)");
+			script.ShouldContain("candidates.flatMap(candidate => candidate.y)");
+			script.ShouldContain("function snapPositions(node)");
 		}
 
 	}
